@@ -1,0 +1,1839 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A rational, compendious way to convince, without any dispute, all persons whatsoever, dissenting from the true religion. By J.K.</title>
+            <author>Keynes, John, 1625?-1697.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1674</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 116 KB of XML-encoded text transcribed from 80 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A47321</idno>
+            <idno type="STC">Wing K393</idno>
+            <idno type="STC">ESTC R200380</idno>
+            <idno type="EEBO-CITATION">99825062</idno>
+            <idno type="PROQUEST">99825062</idno>
+            <idno type="VID">29434</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A47321)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 29434)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2188:07)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A rational, compendious way to convince, without any dispute, all persons whatsoever, dissenting from the true religion. By J.K.</title>
+                  <author>Keynes, John, 1625?-1697.</author>
+               </titleStmt>
+               <extent>[30], 124 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>Printed in the year 1674.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>J.K. = John Keynes.</note>
+                  <note>Place of publication from Wing.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Apologetic works --  Early works to 1800.</term>
+               <term>Theology, Doctrinal --  17th century --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-10</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2009-10</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:29434:1" rendition="simple:additions"/>
+            <p>A RATIONAL, Compendious way TO CONVINCE, Without any DISPUTE, All
+Perſons whatſoever, Diſſenting from the TR<g ref="char:V">Ʋ</g>E RELIGION.</p>
+            <p>By <hi>J. K.</hi>
+            </p>
+            <q>
+               <bibl>PSAL. IV. 7.</bibl> 
+               <p>Signatum eſt ſuper nos lumen vultus tui, Domine.</p>
+            </q>
+            <p>Printed in the Year 1674.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:29434:2"/>
+            <pb facs="tcp:29434:2"/>
+            <head>THE PREFACE.</head>
+            <p>THE variety of Sects, which daily ſwarm here in
+<hi>England,</hi> has forced me upon <hi>this way</hi> of ending
+Con<g ref="char:EOLhyphen"/>troverſies in Religion. No body can confute <hi>in particular</hi> the
+pro<g ref="char:EOLhyphen"/>per Tenets of each Sect, unleſs he be firſt well informed <hi>what they
+are:</hi> and our Sects are ſo <hi>nume<g ref="char:EOLhyphen"/>rous,</hi> and ſo <hi>various,</hi>
+that to be well informed of the <hi>particular Tenets</hi> of each one of them,
+a mans life is not ſufficient. Yea, even Thoſe, who do profeſs to be all
+oſ <hi>the ſame</hi> Religion, are many times <hi>ſo different</hi> one
+from <pb facs="tcp:29434:3"/>another, that we can ſcarce find Two among them, who do
+perfect<g ref="char:EOLhyphen"/>ly agree in the <hi>Articles of their Faith.</hi> Several Religions
+retain only <hi>the name</hi> of what they were when firſt broached; and
+ſhould one be perfectly acquainted with the proper Tenets of the Sects which
+<hi>are now in Vogue,</hi> with<g ref="char:EOLhyphen"/>in a ſhort time he would be to ſeek; when
+<hi>other new Hereſies</hi> come into faſhion. Beſides, it is one thing
+to convince a man, that he is <hi>in a wrong way,</hi> which we may do by
+refuting the <hi>particu<g ref="char:EOLhyphen"/>lar Errors</hi> of the Religion he pro<g ref="char:EOLhyphen"/>feſſes; and
+another thing to ſhew him <hi>which is the True way:</hi> which cannot be
+done, but by <hi>demonſtrating</hi> unto him the True Religion.</p>
+            <p>Wherefore I have endeavoured, <pb facs="tcp:29434:3"/>without taking notice of
+the <hi>par<g ref="char:EOLhyphen"/>ticular Errors</hi> of each Sect, to find out a <hi>Method,</hi>
+whereby to evidence, <hi>to all perſons what<g ref="char:EOLhyphen"/>ſoever,</hi> the True
+Religion. For, this being once <hi>evidenced unto them,</hi> whoever ſtrayes
+from it, may clearly ſee, not only that he is <hi>in the wrong,</hi> but
+alſo how he may put himſelf <hi>in the right</hi>-Certain it is, that if
+there be a <hi>True Religion</hi> in the world (as we ſhall evince there is)
+it may be found out by all ſuch as are <hi>concerned therein;</hi> and
+conſe<g ref="char:EOLhyphen"/>quently by <hi>all perſons</hi> whatſo<g ref="char:EOLhyphen"/>ever; For they are <hi>all
+concern'd</hi> in finding out the True Religion; ſince they are all
+<hi>bound</hi> to ſave their Souls: Nor can they <hi>ſave their Souls,</hi>
+unleſs they <hi>pleaſe God;</hi> nor pleaſe God, unleſs they 
+<pb facs="tcp:29434:4"/>
+               <hi>embrace the True Religion:</hi> which is only able to teach
+them, what they are to do to pleaſe God. (<hi>Sine Fide impoſſibile
+eſt, placere Deo,</hi> Heb. 11.6.) Nor finally embrace the True Religion,
+unleſs they can find out, and be convinced <hi>which it is.</hi> And if all
+perſons whatſoever may <hi>find out,</hi> which the True Religion is, there
+muſt needs be <hi>ſome way,</hi> whereby they may find it out: and this way
+alſo muſt be ſuch, that it <hi>may be found out.</hi> For what matters
+it, that there be a way to find out ſuch a thing, if no Body can find out
+<hi>which that way is?</hi> My endeavour therefore was to find out This way,
+<hi>of Convincing all perſons whatſo<g ref="char:EOLhyphen"/>ever,</hi> concerning the True
+Reli<g ref="char:EOLhyphen"/>gion.</p>
+            <p>
+               <pb facs="tcp:29434:4"/>Now <hi>Natural Reaſon,</hi> and <hi>Experience</hi>
+teaches us, that it is not poſſible to convince any one <hi>by
+diſcourſe,</hi> but out of what <hi>the perſon,</hi> with whom we deal,
+<hi>does admit.</hi> For all conviction by diſcourſe muſt be <hi>grounded
+upon premiſes:</hi> and nothing can be convinced, or concluded out of
+premiſes, <hi>unleſs they be gran<g ref="char:EOLhyphen"/>ted.</hi> If every Thing is <hi>to be
+pro<g ref="char:EOLhyphen"/>ved,</hi> we ſhall never <hi>finiſh the proof</hi> of any Thing. The
+art there<g ref="char:EOLhyphen"/>fore of convincing a perſon con<g ref="char:EOLhyphen"/>ſiſts in diſcovering
+<hi>ſuch premi<g ref="char:EOLhyphen"/>ſes granted by him,</hi> whence is in<g ref="char:EOLhyphen"/>ferred what we pretend
+to con<g ref="char:EOLhyphen"/>vince him of,</p>
+            <p>And if the premiſes be not only <hi>granted</hi> by our
+Adverſary, but alſo <hi>True in themſelves,</hi> they may be effectual,
+both to <pb facs="tcp:29434:5"/>convince our <hi>Adverſary,</hi> and evince <hi>the
+Truth</hi> too. But if they be not <hi>True</hi> in themſelves, yet granted
+to be ſo, they may <hi>convince him,</hi> but can never <hi>evince the
+Truth:</hi> And ſuch Arguments are commenly ſtiled <hi>Argumenta ad
+hominem.</hi> Since therefore my deſign was, not on<g ref="char:EOLhyphen"/>ly to convince <hi>the
+perſons,</hi> but to evince <hi>the Truth</hi> alſo, and to convince
+<hi>all perſons whatſoever,</hi> concerning the True Religion, I further
+reſolved, to ſeek out Prin<g ref="char:EOLhyphen"/>ciples <hi>True</hi> in themſelves,
+<hi>perti<g ref="char:EOLhyphen"/>nent</hi> to prove the intent, and ſuch as <hi>no perſon
+whatſoever</hi> could deny, or queſtion.</p>
+            <p>But where ſhall we meet with <hi>ſuch Principles?</hi>
+eſpecially ſince we live in an Age, wherein a <hi>good wit,</hi> and a
+<hi>bold wit</hi> are <pb facs="tcp:29434:5"/>accounted <hi>Synonima's;</hi> and thoſe
+are held to be <hi>moſt ingenious,</hi> who can <hi>deny moſt.</hi> If we
+apply our ſelves to the ſeveral <hi>Writers</hi> of each reſpective Sect,
+thinking to convince the profeſſors of ſuch Sects by the
+<hi>Teſtimonies</hi> of their own <hi>Doctors,</hi> we ſhall find, that
+ſome Fancy <hi>one Author,</hi> ſome <hi>another;</hi> though they all
+profeſs themſelves to be of the <hi>ſame Re<g ref="char:EOLhyphen"/>ligion.</hi> Neither will
+they ſtand <hi>to all</hi> the Author, whom they Fancy, <hi>aſſerts;</hi>
+but to what they pleaſe only, and in what ſenſe too they pleaſe to
+<hi>interpret</hi> it. Yea; though they promiſe many times, at the Beginning,
+to ſtick to what <hi>ſuch a Doctor,</hi> to whom they are devoted, does
+affirm, in re<g ref="char:EOLhyphen"/>ference to <hi>ſuch a Debate;</hi> yet when they are preſs'd,
+they flie off, <pb facs="tcp:29434:6"/>and ſay, That <hi>they will not pin their Faith
+upon the ſleeve of</hi> Luther, Calvin, <hi>or any other particular Doctor of
+the Prote<g ref="char:EOLhyphen"/>ſtant Church.</hi>
+            </p>
+            <p>If we make our addreſs to the <hi>ancient Fathers</hi> of the
+Church, endeavouring to evidence, by their Teſtimonies, <hi>the Truth</hi> of
+ours, and the <hi>Falſhood</hi> of our Adverſaries Religion, <hi>this
+To<g ref="char:EOLhyphen"/>pick</hi> is obnoxious to <hi>the ſame flaws,</hi> as the former. For our
+Adverſaries admit, among the ancient Fathers, <hi>only whom they fancy,</hi>
+and of him <hi>only what</hi> they fancy, and this only <hi>in what
+ſenſe</hi> they fancy: and though, to amuſe the people, they often
+vapour, that the Fathers, for <hi>the firſt 600 years</hi> after Chriſt,
+did ſtand for them, yet <pb facs="tcp:29434:6"/>when they are pinched with <hi>clear
+Teſtimonies</hi> produced out of them, deſtructive to their <hi>parti<g ref="char:EOLhyphen"/>cular
+Sentiments,</hi> they plainly confeſs, that even the chiefeſt of the
+ancient Fathers were infected with <hi>Non-fundamental Errors,</hi> (and
+<hi>ſuch Errors</hi> only they aſ<g ref="char:EOLhyphen"/>cribe to <hi>Bellarmin</hi> and other
+Writers of the <hi>Roman</hi> Church) and with ſeveral
+<hi>Superſtitions</hi> of Popery: or they come to ſlight them all, ſaying
+with ſome <hi>Ger<g ref="char:EOLhyphen"/>man Lutherans,</hi> that one <hi>Kem<g ref="char:EOLhyphen"/>nitius</hi> is worth a
+thouſand <hi>Au<g ref="char:EOLhyphen"/>ſtins,</hi> or (with their grand Pa<g ref="char:EOLhyphen"/>triarch
+<hi>Luther</hi>) that they do not value a <hi>Thouſand Cyprians,</hi> a
+<hi>Thouſand Auſtins;</hi> nay, nor the <hi>whole Univerſal Church,</hi>
+worth a ſtraw. The ſame may be ſaid of <hi>Tradition.</hi> For they admit
+<pb facs="tcp:29434:7"/>the Tradition only of <hi>ſuch men,</hi> and in <hi>ſuch
+matters,</hi> as they think fit; or when they are urged, they ſlight it.</p>
+            <p>If we appeal to the <hi>General Councils</hi> of the Church,
+ſhewing that by <hi>their Canons</hi> our Tenets are
+<hi>eſtabliſhed,</hi> and the Errors of our Adverſaries
+<hi>condemned;</hi> of <hi>eighteen General Councils,</hi> they admit only
+<hi>four:</hi> Nay, they do not afford any <hi>abſolute aſſent</hi> to
+the Definitions of any Gene<g ref="char:EOLhyphen"/>ral Council whatſoever, but only a
+<hi>conditional,</hi> viz. as far only as they, guided by their <hi>own
+pri<g ref="char:EOLhyphen"/>vate Spirit,</hi> do judge, that what the Council defines, is <hi>agreeable
+to Scripture.</hi> And ſure; they will not deny <hi>ſuch an
+aſſent,</hi> even to what the Council of <hi>Trent</hi> has defined.</p>
+            <p>
+               <pb facs="tcp:29434:7"/>If we betake our Selves to Scri<g ref="char:EOLhyphen"/>pture, producing
+thence many <hi>pregnant proofs</hi> in vindication of the Articles we defend
+in op<g ref="char:EOLhyphen"/>poſition to <hi>the Proteſtant</hi> Church, though Sectaries boaſt
+that Scripture is on their ſide, yet they allow only of <hi>ſuch
+Scri<g ref="char:EOLhyphen"/>pture,</hi> of <hi>ſuch Verſions,</hi> and of <hi>ſuch an
+Interpretation,</hi> as their <hi>private Spirit</hi> dictates unto them: So
+that if we will prove out of Scripture, as out of a <hi>principle admitted</hi>
+by our Adver<g ref="char:EOLhyphen"/>ſaries, the Articles of our Faith, we muſt prove them out of
+Scri<g ref="char:EOLhyphen"/>pture, as <hi>interpreted</hi> according to their <hi>private Spirit;</hi>
+which is impoſſible. For how can it be poſſible to evince againſt a
+<hi>Zuin<g ref="char:EOLhyphen"/>glian,</hi> for example, out of that place of Scripture, Matth. 26. 
+<pb facs="tcp:29434:8"/>
+               <hi>This is my body,</hi> the Real Pre<g ref="char:EOLhyphen"/>ſence of Chriſt in the
+Euchariſt, if we muſt take that place <hi>in the ſenſe</hi> of a
+Zuinglian, <hi>viz.</hi> in a <hi>meer Figurative ſenſe?</hi>
+            </p>
+            <p>And ſince Sectaries will not aſſent to any thing in matters
+of Religion, aſſerted by <hi>Doctors, Fathers, Tradition,</hi> or
+<hi>Coun<g ref="char:EOLhyphen"/>cils,</hi> further then it is <hi>agreeable</hi> to Scripture; neither
+will they <hi>aſſent to Scripture,</hi> but as <hi>in<g ref="char:EOLhyphen"/>terpreted</hi> by
+their own <hi>private ſpirit,</hi> it follows manif<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſtly, that the malice of our Aduerſaries has rendred
+all the forementioned <hi>Topicks</hi> (though <hi>good in them<g ref="char:EOLhyphen"/>ſelves</hi>)
+as admitted by them, and <hi>in the manner</hi> they admit them,
+<hi>inſignificant,</hi> and <hi>ineffectual</hi> to prove out of them, as out
+of <hi>pre<g ref="char:EOLhyphen"/>miſes granted</hi> by our Aduerſa<g ref="char:EOLhyphen"/>ries, <pb facs="tcp:29434:8"/>the Tenets
+of the true Reli<g ref="char:EOLhyphen"/>gion; and that whoever makes uſe of them <hi>as of
+ſuch,</hi> will of<g ref="char:EOLhyphen"/>ten be at a loſs. Yea, what ſhall we ſay to <hi>Les
+beaux Eſprits</hi> of our Nation, (the Spawn of He<g ref="char:EOLhyphen"/>reſie) who openly
+diſavow <hi>Do<g ref="char:EOLhyphen"/>ctors, Fathers, Tradition, Coun<g ref="char:EOLhyphen"/>cils,</hi> and
+<hi>Scripture?</hi>
+            </p>
+            <p>Wherefore to the end we may argue well againſt our Adverſary,
+out of a <hi>Principle</hi> as granted by him; it is not enough, that ſuch a
+principle be <hi>good,</hi> and <hi>perti<g ref="char:EOLhyphen"/>nent</hi> in it ſelf: but it is
+neceſ<g ref="char:EOLhyphen"/>ſary, that it be <hi>granted</hi> by our Adverſary, and in
+<hi>ſuch a man<g ref="char:EOLhyphen"/>ner,</hi> as that it may be <hi>effectual</hi> to evince what
+we intend.</p>
+            <p>If, finally we retreat to <hi>Na<g ref="char:EOLhyphen"/>tural Reaſon,</hi> endeavouring
+thereby to make out the True Re<g ref="char:EOLhyphen"/>ligion; <pb facs="tcp:29434:9"/>though there be no
+rati<g ref="char:EOLhyphen"/>onal man, who will plainly con<g ref="char:EOLhyphen"/>feſs that he renounces <hi>all Natural
+Reaſon,</hi> (for ſo he would re<g ref="char:EOLhyphen"/>nounce the being a <hi>Rational man,</hi>
+yea ſuch as diſallow <hi>all other Topicks,</hi> do moſt vapour of
+<hi>Na<g ref="char:EOLhyphen"/>tural Reaſon</hi>) yet many confine it, in ſeveral matters, to their
+own <hi>private Notions,</hi> and <hi>Fan<g ref="char:EOLhyphen"/>cies.</hi>
+            </p>
+            <p>Notwithſtanding, there are ſome Principles ſo
+<hi>manifeſt,</hi> and ſo <hi>general,</hi> that no man whatſo<g ref="char:EOLhyphen"/>ever can
+<hi>deny,</hi> or <hi>queſtion</hi> them, without evidently rendring
+him<g ref="char:EOLhyphen"/>ſelf uncapable of conferring with any rational man. Such is this
+Principle, <hi>SOMETHING IS TRUE,</hi> which no <hi>Sce<g ref="char:EOLhyphen"/>ptique,</hi> though
+never ſo Extra<g ref="char:EOLhyphen"/>vagant, can call in queſtion; <pb facs="tcp:29434:9"/>and whoever
+ſhould affirm, that <hi>NOTHING IS TRUE,</hi> would not only incapacitate
+him<g ref="char:EOLhyphen"/>ſelf <hi>for all humane converſati<g ref="char:EOLhyphen"/>on,</hi> but alſo grant <hi>the
+very thing</hi> he denies: This Propoſiti<g ref="char:EOLhyphen"/>on <hi>Nothing is True,</hi> being
+of the nature of ſuch, as <hi>falſifie themſelves,</hi> and cut their own
+throats. Nay, if <hi>nothing be true,</hi> the Poſition our Adverſaries
+pre<g ref="char:EOLhyphen"/>tend to maintain is <hi>not True,</hi> viz. That <hi>the Roman Church is
+infected with Errors, and Cor<g ref="char:EOLhyphen"/>ruptions.</hi>
+            </p>
+            <p>Our preſent Method therefore is bottom'd upon the forementioned
+Principle, <hi>Something is true;</hi> which I keep in reſerve, to the end,
+that in caſe <hi>other Princi<g ref="char:EOLhyphen"/>ples</hi> ſhould fail me, I might have
+wherein to truſt, and whereon to <pb facs="tcp:29434:10"/>ground the Conviction of
+<hi>all Diſ<g ref="char:EOLhyphen"/>ſenters whatſoever</hi> from the true Religion. For <hi>this
+Principle</hi> being once agreed unto (as <hi>ne<g ref="char:EOLhyphen"/>ceſſarily</hi> it muſt
+be) I deduce thence the truth not only of the <hi>Roman</hi> Catholique
+Religion, but alſo of <hi>whatſoever</hi> ſhe delivers as an
+<hi>Article</hi> of <hi>Divine</hi> Faith.</p>
+            <p>This Method is <hi>Rational, Compendious, Clear, Eaſie,</hi> and
+<hi>General.</hi>
+            </p>
+            <p>It is <hi>Rational;</hi> for not only the <hi>Foundation,</hi> but
+the <hi>Super<g ref="char:EOLhyphen"/>ſtructures</hi> too, are ſquared out by <hi>natural
+Reaſon.</hi>
+            </p>
+            <p>It is <hi>Compendious:</hi> for, the whole ſubſtance of the
+Method is comprehended in <hi>ſix ſhort points;</hi> which yet I draw into
+a nar<g ref="char:EOLhyphen"/>rower Circle.</p>
+            <p>It is <hi>Clear:</hi> interwoven only <pb facs="tcp:29434:10"/>with plain, and
+general notions, and deveſted from all <hi>Scholaſti<g ref="char:EOLhyphen"/>cal queſtions;</hi>
+which of purpoſe I have waved: For my perſwa<g ref="char:EOLhyphen"/>ſion always has been, That
+<hi>Pole<g ref="char:EOLhyphen"/>mical Debates,</hi> wherein we han<g ref="char:EOLhyphen"/>dle matters of Religion, which
+<hi>we cannot deny without for<g ref="char:EOLhyphen"/>feiting our Faith,</hi> are not to be involved
+with <hi>Scholaſtical</hi> Opi<g ref="char:EOLhyphen"/>nions; which we may promiſcu<g ref="char:EOLhyphen"/>ouſly
+<hi>deny,</hi> or <hi>defend,</hi> without any prejudice to our Religion, For,
+then the conteſt comes to be, not between <hi>Catholick,</hi> and
+<hi>no-Catholick,</hi> but between <hi>Catho<g ref="char:EOLhyphen"/>licks</hi> and
+<hi>Catholiques:</hi> neither do I ſee what neceſſity there is, that men
+ſhould be made <hi>Tho<g ref="char:EOLhyphen"/>miſts, Scotiſts,</hi> or <hi>Suariſts,</hi>
+be<g ref="char:EOLhyphen"/>fore they be made <hi>Chriſtians,</hi> or <hi>Catholiques:</hi> or why
+Thoſe, who <pb facs="tcp:29434:11"/>
+               <hi>come</hi> to our Religion, ſhould not have
+<hi>the ſame liberty,</hi> in or<g ref="char:EOLhyphen"/>der to opinions, as Thoſe, who are of our
+Religion.</p>
+            <p>It is <hi>Eaſie:</hi> For; that one may underſtand this
+Method, it is not neceſſary, that he be <hi>vers'd in Fathers,
+Councils,</hi> or <hi>Scri<g ref="char:EOLhyphen"/>ptures,</hi> nor that he has <hi>read Books of
+Controverſie,</hi> nor that he be a <hi>Philoſopher,</hi> or a
+<hi>Divine,</hi> nor that he be acquain<g ref="char:EOLhyphen"/>ted with the <hi>Latin, Greek,</hi> or
+<hi>Hebrew</hi> Tongue; nay, nor that he be ſo much as <hi>able to read.</hi>
+It is only neceſſary, that he be en<g ref="char:EOLhyphen"/>dowed with <hi>Reaſon,</hi> and that
+he be able to reflect <hi>upon his own Thoughts;</hi> which any rational man is
+able to do. For my Task, in this Method, only is, among ſo many <hi>general
+Notions,</hi> which <pb facs="tcp:29434:11"/>either <hi>Nature,</hi> or <hi>Education,</hi>
+hath printed in the hearts of all men, <hi>to trace out ſuch,</hi> as being
+<hi>rallied</hi> together, will certainly <hi>conveigh</hi> one to the <hi>True
+Reli<g ref="char:EOLhyphen"/>gion.</hi> So that my deſign is, ra<g ref="char:EOLhyphen"/>ther to ſhew <hi>every one,</hi>
+how he may convince <hi>himſelf,</hi> than to convince him <hi>my
+ſelf.</hi> And though few are willing to <hi>yield to others,</hi> in
+conteſts of great concern; yet no Body is unwil<g ref="char:EOLhyphen"/>ling to <hi>yield to
+himſelf,</hi> and his <hi>own Notions.</hi>
+            </p>
+            <p>Wherefore, laying aſide all <hi>Animoſities,</hi> and
+<hi>Feuds of Diſ<g ref="char:EOLhyphen"/>putes,</hi> which many hate ſo much, we deal fairly, and
+freely, with our Adverſary, making him <hi>his own Book,</hi> and only
+pointing out unto him, by way of <hi>an In<g ref="char:EOLhyphen"/>terrogatory,</hi> ſuch Principles
+as <pb facs="tcp:29434:12"/>are material to our intent.</p>
+            <p>Finally, it is <hi>General;</hi> for the <hi>Satisfaction</hi> of
+<hi>all perſons,</hi> for the <hi>confirmation</hi> of <hi>all Ar<g ref="char:EOLhyphen"/>ticles</hi>
+of Faith, and for the <hi>con<g ref="char:EOLhyphen"/>futation</hi> of <hi>all Errors</hi> againſt
+Re<g ref="char:EOLhyphen"/>ligion. It is <hi>General</hi> for the ſa<g ref="char:EOLhyphen"/>tisfaction of <hi>all
+perſons,</hi> whether they be <hi>learned,</hi> or <hi>unlearned,</hi>
+whether they be <hi>Chriſtians,</hi> or no <hi>Chriſtians,</hi> and whether
+they be of <hi>any Religion,</hi> or of <hi>no Reli<g ref="char:EOLhyphen"/>gion.</hi> Yea it is
+<hi>General,</hi> as well for ſuch as ſeek <hi>their own Sa<g ref="char:EOLhyphen"/>tisfaction</hi>
+in matters of Religi<g ref="char:EOLhyphen"/>on, as for ſuch as deſire to <hi>ſatis<g ref="char:EOLhyphen"/>fie
+others.</hi> Nor Thoſe, who will make uſe of This Method, have any need of
+<hi>Books;</hi> much leſs of <hi>great Libraries:</hi> and whatever way our
+Adverſary takes to at<g ref="char:EOLhyphen"/>taque us, we may <hi>force</hi> him to <pb facs="tcp:29434:12"/>
+               <hi>our Method.</hi> So that whoever is well acquainted therewith,
+needs not any <hi>particular preparation</hi> to encounter any Adverſary, of
+whatſoever Sect or profeſſion he be.</p>
+            <p>It is alſo <hi>General,</hi> for the <hi>Con<g ref="char:EOLhyphen"/>firmation</hi> of
+<hi>all Articles</hi> of Faith. For we ſhew at once the <hi>Truth</hi> of
+<hi>All ſuch Articles:</hi> and not only of ſ<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ch as <hi>are now</hi> Articles of Faith, but of ſuch
+too, as ſhall <hi>hereafter be declared to be ſo.</hi> We inſinuate
+alſo, how This Me<g ref="char:EOLhyphen"/>thod may be <hi>applied</hi> to any <hi>par<g ref="char:EOLhyphen"/>ticular
+point;</hi> wherein ſatisfacti<g ref="char:EOLhyphen"/>on is deſired. Wherefore, when one is to
+diſpute with another, of whatſoever Religion he be, if he will
+<hi>adjuſt</hi> himſelf to <hi>This</hi> Method, there is no need to
+<hi>ad<g ref="char:EOLhyphen"/>viſe him beforehand,</hi> of what <pb facs="tcp:29434:13"/>particular Point they
+are to Diſ<g ref="char:EOLhyphen"/>pute.</p>
+            <p>Laſtly, it is <hi>General</hi> for the <hi>Confutation</hi> of
+<hi>all Errors</hi> in Re<g ref="char:EOLhyphen"/>ligion: not only of ſuch as <hi>have been,</hi> or
+<hi>are,</hi> but alſo of ſuch, as <hi>ſhall</hi> (perhaps) <hi>hereafter
+be hat<g ref="char:EOLhyphen"/>ched.</hi> So that, though the Here<g ref="char:EOLhyphen"/>ſies of theſe times ſhould
+<hi>go out of faſhion,</hi> (as probably they will) and others come <hi>into
+vogue,</hi> there will be no need of ſeeking a <hi>new Method,</hi> or
+<hi>way</hi> to confute them.</p>
+            <p>Many ſpend much time in ſeeking out the True Religion, yet
+<hi>never find it:</hi> and the reaſon is, becauſe they do not take <hi>the
+right way:</hi> yea they never enquire, whether the way they take <hi>be right,
+or not.</hi> And let a Thing be never ſo eaſie to be met with, <pb facs="tcp:29434:13"/>yet if one takes the <hi>wrong way,</hi> he will <hi>never,</hi> or
+<hi>ſcarce ever,</hi> meet with it.</p>
+            <p>The firſt enquiry therefore muſt be about <hi>the way,</hi> to
+find out the True Religion. Our Sectaries com<g ref="char:EOLhyphen"/>monly run <hi>to Scriptures,</hi>
+as <hi>the only way</hi> so find it out; and to that Scripture which
+<hi>chance</hi> or <hi>Education</hi> has put into their hands, without ever
+examining whether it be <hi>true,</hi> and <hi>entire Scripture,</hi> or no.
+Others addreſs themſelves to the <hi>Doctors</hi> of the Religion
+<hi>eſtabliſhed</hi> in the Coun<g ref="char:EOLhyphen"/>try, where they were born;
+<hi>ſup<g ref="char:EOLhyphen"/>poſing,</hi> rather then <hi>proving,</hi> ſuch a Religion to be
+true; and with<g ref="char:EOLhyphen"/>out reflecting, that men will be ſure to <hi>prefer</hi> the
+Religion they profeſs, whether <hi>True,</hi> or <hi>Falſe,</hi> before all
+others. And though I <pb facs="tcp:29434:14"/>cannot deny, but that ſome per<g ref="char:EOLhyphen"/>ſons have
+gotten into the True Re<g ref="char:EOLhyphen"/>ligion <hi>by chance,</hi> or upon <hi>frivo<g ref="char:EOLhyphen"/>lous
+grounds;</hi> and that if they conform thereunto, <hi>they will be
+ſaved:</hi> yet certainly whoever comes to know, that the
+<hi>induce<g ref="char:EOLhyphen"/>ments</hi> he had to embrace the Reli<g ref="char:EOLhyphen"/>gion he is a member of, were
+<hi>very ſlight,</hi> and <hi>inſignificant,</hi> he will, if he tenders
+his own Salvation, endeavour to find out <hi>Solid Mo<g ref="char:EOLhyphen"/>tives:</hi> which if he
+cannot find in the Religion he hitherto has pro<g ref="char:EOLhyphen"/>feſſed, he is bound to
+ſeek them elſewhere.</p>
+            <p>I believe, that the Fate of this Diſcourſe will be the ſame,
+as that of other ſuch Diſcourſes, which are grounded <hi>upon
+Rea<g ref="char:EOLhyphen"/>ſon,</hi> viz. that there will be ſome, who when they have nothing
+elſe <pb facs="tcp:29434:14"/>to ſay, will cry out <hi>Sophiſtry, So<g ref="char:EOLhyphen"/>phiſtry.</hi>
+But we muſt not be ſcar<g ref="char:EOLhyphen"/>red with meer words. Let them legally ſhew,
+wherein <hi>the Sophi<g ref="char:EOLhyphen"/>ſtry,</hi> or <hi>Fallacy,</hi> of any of our Arguments
+does conſiſt; or at leaſt that they are <hi>Sophiſtical,</hi> and
+<hi>Fallacious:</hi> and they will do ſomething. But if they be not able to
+do neither of theſe Things; <hi>ac<g ref="char:EOLhyphen"/>cording to the Laws of rational
+Diſcourſe,</hi> they must confeſs themſelves <hi>Non pluſt,</hi> and
+if to ſay only, without any legal proof, That an <hi>Argument is
+Sophiſtical,</hi> be enough to anſwer it, what Ar<g ref="char:EOLhyphen"/>gument is there. though
+never <hi>ſo concluding,</hi> which may not eaſi<g ref="char:EOLhyphen"/>ly be anſwered?</p>
+            <p>And to put an end to this Pre<g ref="char:EOLhyphen"/>face, I entreat ſuch, as ſhall
+take the pains to read this <hi>preſent me<g ref="char:EOLhyphen"/>thod,</hi> 
+               <pb facs="tcp:29434:15"/>that they
+would be pleaſed to peruſe it with <hi>care,</hi> and <hi>dili<g ref="char:EOLhyphen"/>gence.</hi>
+For, even the <hi>cleareſt de<g ref="char:EOLhyphen"/>monſtrations</hi> are not underſtood,
+unleſs they be conſidered <hi>with at<g ref="char:EOLhyphen"/>tention,</hi> and that they would
+ſuſ<g ref="char:EOLhyphen"/>pend their judgment thereof, till <hi>they have read it all over,</hi>
+we having ſet down after <hi>the ſix points,</hi> wherein the Method
+con<g ref="char:EOLhyphen"/>ſiſts, ſeveral things, which contri<g ref="char:EOLhyphen"/>bute much, to clear the
+<hi>difficul<g ref="char:EOLhyphen"/>ties,</hi> that may occur againſt it. And ſince there is no
+Book ſo <hi>for<g ref="char:EOLhyphen"/>tunate,</hi> as that it has been appro<g ref="char:EOLhyphen"/>ved <hi>by all,</hi>
+eſpecially if it treats of points controverted: nor none ſo
+<hi>unfortunate,</hi> as that it has not been approved <hi>by ſome:</hi> Such
+as ſhall <hi>approve</hi> of this Method, will at a very little expence have
+reaped a <hi>conſiderable Fruit,</hi> viz. <pb facs="tcp:29434:15"/>a <hi>Compendious
+way</hi> to ſatisfie <hi>themſelves,</hi> and <hi>others,</hi> in mat<g ref="char:EOLhyphen"/>ters
+of Religion: and ſuch as ſhall <hi>not approve</hi> of it, will have no
+juſt reaſon <hi>to complain</hi> of me, as if I had put them to any great
+expence either of <hi>Time</hi> or <hi>Mo<g ref="char:EOLhyphen"/>ney.</hi>
+            </p>
+            <pb facs="tcp:29434:16"/>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:29434:16"/>
+            <head>A RATIONAL, Compendious way, TO Convince, without any
+Diſpute, all Perſons whatſo<g ref="char:EOLhyphen"/>ever Diſſenting from the TRUE
+RELIGION.</head>
+            <p>ALL perſons whatſoever, that Diſſent from the True
+Religion, (which we ſhall prove to be the Catho<g ref="char:EOLhyphen"/>lique) muſt be either of no
+Re<g ref="char:EOLhyphen"/>ligion; or of a Falſe Religion, as is manifeſt.</p>
+            <p>
+               <pb n="2" facs="tcp:29434:17"/>If they be of no Religion, ei<g ref="char:EOLhyphen"/>ther they deny a
+True God, and conſequently a true Religion, as Atheiſts: or they grant a
+True God, but deny a True Religi<g ref="char:EOLhyphen"/>on, as Deiſts.</p>
+            <p>If they be of a Falſe Religi<g ref="char:EOLhyphen"/>on, either they deny a Reveal<g ref="char:EOLhyphen"/>ed
+Religion, but grant a natural Religion, as Libertines and Lati<g ref="char:EOLhyphen"/>tudinarians: or
+they grant a re<g ref="char:EOLhyphen"/>vealed Religion, but deny Chri<g ref="char:EOLhyphen"/>ſtian Religion, as Jews,
+Turks, and Pagans: or they grant Chri<g ref="char:EOLhyphen"/>ſtian Religion, but deny Catho<g ref="char:EOLhyphen"/>lique
+Religion; as rigid Prote<g ref="char:EOLhyphen"/>ſtants: or finally, they grant Catholick Religion to
+be a true Religion, and free from all Fun<g ref="char:EOLhyphen"/>damental errors: but withal they
+affirm, that it teaches <hi>us Arti<g ref="char:EOLhyphen"/>cles of Faith,</hi> ſeveral Errors, and 
+<pb n="3" facs="tcp:29434:17"/>Corruptions; and conſequently, that it is not Free from
+all Errors and Corruptions whatſoever; as moderate Proteſtants.</p>
+            <p>And becauſe it is impoſſible to convince any one of his
+er<g ref="char:EOLhyphen"/>rors, but out of Principles, or Poſitions, which he himſelf does grant,
+as is evident: we ſup<g ref="char:EOLhyphen"/>poſe that there is no body, un<g ref="char:EOLhyphen"/>leſs he be
+manifeſtly either a Mad man or a Fool, and by con<g ref="char:EOLhyphen"/>ſequence uncapable to be
+diſ<g ref="char:EOLhyphen"/>courſed with, who does not grant <hi>SOMETHING TO BE TR<g ref="char:V">Ʋ</g>E.</hi> For,
+if <hi>nothing be true,</hi> then it is not True, that he, with whom we
+Diſpute, is in his wits; that he is rather a man, than a Block; that he
+affirms, or denies, or doubts: Nay, it is not true, that <hi>Nothing is
+True.</hi> For, if <pb n="4" facs="tcp:29434:18"/>this be true, then <hi>Something</hi> is
+true.</p>
+            <p>Upon this Suppoſition, <hi>viz.</hi> that <hi>there is
+ſomething True,</hi> (which no rational man can que<g ref="char:EOLhyphen"/>ſtion) I ground this
+preſent Me<g ref="char:EOLhyphen"/>thod, to convince all perſons whatſoever, diſſenting from
+the true Religion. For, if there be <hi>ſomething True,</hi> we ſhall prove
+that <hi>there is a true God;</hi> and if there be a true God, That <hi>there
+is ſome true Religion;</hi> and if there be ſome True Religion, that there
+is <hi>ſome true revealed Religion;</hi> and if there be ſome true revealed
+Religion, that <hi>Chriſtian Religion is true;</hi> and if Chriſtian
+Religion be true, <hi>that Catholique Religion;</hi> and by conſequence
+<hi>Free from all Fundamental Errors,</hi> and final<g ref="char:EOLhyphen"/>ly, <pb n="5" facs="tcp:29434:18"/>if
+Catholique Religion be true, and free from all Funda<g ref="char:EOLhyphen"/>mental errors, that it
+does not teach as <hi>an Article of Faith,</hi> any error, or corruption; and
+con<g ref="char:EOLhyphen"/>ſequently, that it is free from all errors, and corruptions
+whatſo<g ref="char:EOLhyphen"/>ever. For <hi>Catholique Religi<g ref="char:EOLhyphen"/>on,</hi> or <hi>Catholique Faith</hi>
+is taken here, as it comprehends all Thoſe Doctrines, and <hi>only
+Thoſe,</hi> which the Catholique Church Deli<g ref="char:EOLhyphen"/>vers, as <hi>Articles of Divine
+Faith.</hi> And thus we ſhall convince all perſons whatſoever,
+diſſenting from the true Religion and Faith, that is, <hi>from the
+Catho<g ref="char:EOLhyphen"/>lique Religion and Faith.</hi> For all Diſſenters imaginable are
+com<g ref="char:EOLhyphen"/>prehended in the forementioned Claſſes.</p>
+            <p n="1">
+               <pb n="6" facs="tcp:29434:19"/>I. If there <hi>be ſomething True,</hi>
+I prove that there is a <hi>True God.</hi> For, if there <hi>be ſome Thing
+true,</hi> let's ſuppoſe that it is true, That <hi>there is ſomething
+better than an<g ref="char:EOLhyphen"/>other;</hi> this being an evident Truth aſſented unto by all
+rati<g ref="char:EOLhyphen"/>onal men: and whoever denies, that there is ſomething better than
+another, muſt neceſſarily deny himſelf to be better than an aſs or a
+block. For, if he be better, then there is ſomething better, than another.
+And cer<g ref="char:EOLhyphen"/>tainly, whoever comes to deny himſelf to be better than an Aſs, or
+a Block, is either a mad-man, or a fool; and conſequently un<g ref="char:EOLhyphen"/>worthy to be
+diſcourſed with any further. Now, if there be ſomething better than
+another, <hi>there is ſomething the beſt of all <pb n="7" facs="tcp:29434:19"/>Things.</hi> For one thing is better then another, becauſe it comes
+nearer that, which is the beſt of all things. And how can it come nearer
+that, which is not? It is a common Maxim amongſt Phi<g ref="char:EOLhyphen"/>loſophers,
+<hi>Supremum in unoquo<g ref="char:EOLhyphen"/>que genere eſt menſura reliquo<g ref="char:EOLhyphen"/>rum in eodem
+genere.</hi> The beſt, and greateſt in each kind is the meaſure of the
+reſt in the ſame kind. For one thing is ſaid to be better than another in
+ſuch a kind, becauſe it comes nearer that, which is the beſt. A Duke is
+better in Dignity than an Earl, becauſe he comes nearer the King; who is the
+beſt man of the Kingdom in Dignity. So that unleſs in each kind there be
+ad<g ref="char:EOLhyphen"/>mitted ſomething, <hi>that is the beſt,</hi> there can be no rule, nor 
+<pb n="8" facs="tcp:29434:20"/>meaſure, whereby one Thing may be judged better than
+ano<g ref="char:EOLhyphen"/>ther in ſuch a kind. Wherefore if it be true, that there is ſome<g ref="char:EOLhyphen"/>thing
+better than another, there muſt be <hi>ſomething the beſt of all
+Things:</hi> and if ſo, then there is a True God. For the very no<g ref="char:EOLhyphen"/>tion of a
+true God is <hi>Ens Opti<g ref="char:EOLhyphen"/>mum Maximum,</hi> the Beſt and Greateſt of all
+Things; as all, even Atheiſts do confeſs, as we ſuppoſe: for unleſs
+we agree a<g ref="char:EOLhyphen"/>bout the notion of God, there can be no Diſpute between us. Yea,
+what is the Beſt of all Things that exiſt, is alſo the beſt of all
+Things that are poſ<g ref="char:EOLhyphen"/>ſible. For nothing poſſible can exiſt, or be
+produced, but by virtue of ſomething, that does exiſt: and nothing can
+produce <pb n="9" facs="tcp:29434:20"/>what is better than it ſelf, <hi>Nemo dat, quod
+non habet.</hi> No body gives what he has not. I con<g ref="char:EOLhyphen"/>clude therefore, that if
+it be true (as certainly it is) that there is ſomething better than another,
+there is a true God.</p>
+            <p n="2">II. If there be a True God, I prove, that there is ſome
+True Religion. For, if there be a True God, we ought to worſhip him, in what
+manner he will be wor<g ref="char:EOLhyphen"/>ſhipped by us; and obey him, in what matters he will be
+obey<g ref="char:EOLhyphen"/>ed by us. Subjects ought to re<g ref="char:EOLhyphen"/>verence, and obey their Sove<g ref="char:EOLhyphen"/>reign, and
+Servants their Ma<g ref="char:EOLhyphen"/>ſters, in what manner, and in what matters they require:
+and if there be a true God, the Beſt and greateſt of all things, <hi>Ens 
+<pb n="10" facs="tcp:29434:21"/>optimum, Maximum,</hi> certainly he is <hi>King of Kings,
+and Lord of Lords, and Supreme Governour of the <g ref="char:V">Ʋ</g>niverſe:</hi> and we are
+his <hi>Subjects,</hi> and <hi>Servants;</hi> as no Body, who grants a True
+God, can deny. We ought therefore to reſpect, and obey God. Yea, what is to
+be reſpected, or who is to be obeyed, if God be not? the Beſt of All
+things, the uni<g ref="char:EOLhyphen"/>verſal Monarch? If we ought to worſhip God in what manner
+he will be worſhipped by us, and obey him in what matters he will be obeyed
+by us; there muſt be ſome Doctrine teaching us, in what manner God will be
+worſhipped by us, and in what matters he will be obeyed by us. For how can we
+worſhip or o<g ref="char:EOLhyphen"/>bey God, if we neither know <pb n="11" facs="tcp:29434:21"/>in what manner
+we are to wor<g ref="char:EOLhyphen"/>ſhip him, nor in what matters we are to obey him? For, whe<g ref="char:EOLhyphen"/>ther
+God will <hi>aſſign, by Himſelf,</hi> the particular manner of the
+worſhip to be given to him, or will <hi>leave the aſſignation thereof to
+men</hi> (and he muſt neceſſarily do either the one or the other) we
+muſt obey his will; and to obey it, we muſt know it. And how can we know
+it, unleſs there be ſome Doctrine, that teaches it? If there be ſome
+Doctrine teach<g ref="char:EOLhyphen"/>ing us in what manner God will be worſhiped by us, and in what
+matters he will be obeyed by us, there muſt be ſome true Re<g ref="char:EOLhyphen"/>ligion. For by
+a true Religion we underſtand, according to the common notion thereof, <hi>a
+Do<g ref="char:EOLhyphen"/>ctrine, that teaches men, in what <pb n="12" facs="tcp:29434:22"/>manner God will be
+worſhip'd by them, and in what matters he will be obeyed by them.</hi>
+Where<g ref="char:EOLhyphen"/>fore I conclude, that if there be a True God (as has been pro<g ref="char:EOLhyphen"/>ved) there
+is ſome True Reli<g ref="char:EOLhyphen"/>gion.</p>
+            <p n="3">III. If there be ſome True Religion, I prove, that there
+is ſome true <hi>revealed</hi> Religion. For, if there be ſome true
+Re<g ref="char:EOLhyphen"/>ligion, there is ſome Doctrine teaching us, in what manner God will be
+worſhip'd by us, and in what matters he will be obeyed by us; for this is the
+notion of a true Religion, as we have ſeen. If there be ſome ſuch
+Doctrine, <hi>it muſt be revea<g ref="char:EOLhyphen"/>led unto us by God.</hi> For how can we know
+<hi>Gods will,</hi> unleſs <pb n="13" facs="tcp:29434:22"/>he reveal it unto us, either
+<hi>im<g ref="char:EOLhyphen"/>mediately</hi> by himſelf, or <hi>medi<g ref="char:EOLhyphen"/>ately</hi> by others,
+commiſſioned by him? <hi>Natural Religion,</hi> or the <hi>Light of
+nature,</hi> teaches us only in general, That we are to worſhip God, in what
+man<g ref="char:EOLhyphen"/>ner he will be worſhip'd by us, and that we are to obey him in what
+matters he will be obeyed by us: But it does not tell us (as is manifeſt) the
+<hi>particular manner,</hi> wherewith he requires we would worſhip him, nor
+the <hi>particular matters,</hi> wherein he requires we ſhould obey him:
+which doubtleſs may be very different. And of what concern is it, that we
+know we are to worſhip and obey God, if we neither know, <hi>how</hi> we are
+to worſhip him, nor <hi>in what</hi> we <pb n="14" facs="tcp:29434:23"/>we are to obey
+him? Yea, ſhould God be pleaſed to leave to eve<g ref="char:EOLhyphen"/>ry one the choice of the
+man<g ref="char:EOLhyphen"/>ner, wherein he is to worſhip him; yet ſince this would cer<g ref="char:EOLhyphen"/>tainly be a
+<hi>very particular man<g ref="char:EOLhyphen"/>ner</hi> of worſhip, not intimated unto us by the Law
+of Nature, God <hi>muſt reveal it.</hi> God there<g ref="char:EOLhyphen"/>fore muſt <hi>reveal</hi>
+unto us, in what particular manner he will be worſhipped by us, and in what
+particular matters he will be obeyed by us. And if ſo; then there is ſome
+true <hi>revealed</hi> Religion; which is nothing elſe, but a
+<hi>Doctrine</hi> teaching men in what particular manner God will be
+worſhipped by them, and in what particular matters he will be obeyed by them,
+<hi>re<g ref="char:EOLhyphen"/>vealed by God.</hi> Wherefore I <pb n="15" facs="tcp:29434:23"/>conclude, that if
+there be ſome <hi>True</hi> Religion, (as has been pro<g ref="char:EOLhyphen"/>ved, that there is)
+there is ſome <hi>true revealed</hi> Religion.</p>
+            <p n="4">IV. If there be ſome true <hi>re<g ref="char:EOLhyphen"/>vealed</hi> Religion, I
+prove, that <hi>Chriſtian</hi> Religion is true. For, if there be ſome
+<hi>true Revealed</hi> Religion, certainly, That a<g ref="char:EOLhyphen"/>mong all Religions that
+pretend to be revealed by God, muſt be true, which can evidently ſhew, that
+it has been <hi>miraculouſly pro<g ref="char:EOLhyphen"/>pagated.</hi> For a miraculous pro<g ref="char:EOLhyphen"/>pagation
+cannot be effected <hi>without true, and real Miracles;</hi> and True and Real
+Miracles are Gods <hi>Broad Seal,</hi> and <hi>manifeſt proofs</hi> of
+<hi>the Truth;</hi> in whoſe Confirmation they are wrought, and a <hi>certain
+kind of Divine Re<g ref="char:EOLhyphen"/>velation;</hi> 
+               <pb n="16" facs="tcp:29434:24"/>Becauſe God can ſpeak
+as well by <hi>works,</hi> as by <hi>words.</hi> All profeſſors of
+revea<g ref="char:EOLhyphen"/>led Religions either pretend to produce true, and real Miracles in
+confirmation of their reſpe<g ref="char:EOLhyphen"/>ctive Religions, or at leaſt would be glad, if
+they could produce them. Yea even Atheiſts openly profeſs, that could they
+be con<g ref="char:EOLhyphen"/>vinced of a true, and real Mi<g ref="char:EOLhyphen"/>racle, done in Confirmation of a Truth,
+they ſhould think themſelves bound to ſubmit un<g ref="char:EOLhyphen"/>to it. Wherefore a true,
+and real Miracle, according to the unanimous conſent of men, is a pregnant
+proof of the Thing, in whoſe confirmation it is wrought. If that Religion,
+a<g ref="char:EOLhyphen"/>mong all that pretend to be re<g ref="char:EOLhyphen"/>vealed by God, <hi>be True,</hi> which 
+<pb n="17" facs="tcp:29434:24"/>can evidently ſhew that it has been <hi>miraculouſly
+propagated,</hi> certainly, that muſt be true, which can evidently ſhew,
+that though it contains ſeveral my<g ref="char:EOLhyphen"/>ſteries, far above the reach of Humane
+Reaſon, and divers ſe<g ref="char:EOLhyphen"/>verities, very contrary to hu<g ref="char:EOLhyphen"/>mane inclination, yet
+has been <hi>propagated</hi> over a great part of the world, <hi>without the
+help of Arms,</hi> or <hi>humane Enticements,</hi> by men of themſelves very
+unfit for ſo great a work; overcom<g ref="char:EOLhyphen"/>ing other Religions eſtabliſhed in the
+world, which preached liberty and pleaſures. For the propagation of ſuch a
+Religi<g ref="char:EOLhyphen"/>on, and in ſuch a manner, (to uſe St. <hi>Auguſtin</hi>'s
+argument)<note place="margin">Lib. 22. De Civitat. Dei, cap. 5.</note> either 
+<pb n="18" facs="tcp:29434:25"/>was effected <hi>with Miracles,</hi> or <hi>without
+them.</hi> If <hi>with them,</hi> then it was miraculouſly propa<g ref="char:EOLhyphen"/>gated: which
+is what we pre<g ref="char:EOLhyphen"/>tend. If <hi>without them;</hi> what greater Miracle than this,
+<hi>viz.</hi> that ſuch a Religion ſhould be propagated in ſuch a manner,
+and that without any Miracle! If ſuch a Religion propagated in the manner
+aforeſaid, <hi>be true,</hi> then certainly <hi>Chriſtian Religion</hi> is
+true. For it is evident, as even the enemies of Chriſtianity do confeſs,
+that Chriſtian Religion has been propagated over a great part of the world,
+that it contains ſeveral Myſteries, as the <hi>Trinity, Incarnation,
+Reſur<g ref="char:EOLhyphen"/>rection,</hi> and others, far above the reach of humane reaſon; and
+diverſe ſeverities, as to em<g ref="char:EOLhyphen"/>brace <pb n="19" facs="tcp:29434:25"/>croſſes, to love
+our ene<g ref="char:EOLhyphen"/>mies, to mortifie our paſſions, and others, very contrary to
+hu<g ref="char:EOLhyphen"/>mane inclination; that it over<g ref="char:EOLhyphen"/>came Paganiſm eſtabliſhed in the world,
+which preached li<g ref="char:EOLhyphen"/>berty and pleaſures: and final<g ref="char:EOLhyphen"/>ly, that being ſuch, it
+was pro<g ref="char:EOLhyphen"/>pagated <hi>without the help of Arms,</hi> or <hi>humane
+Enticements,</hi> by the Apoſtles, and other A<g ref="char:EOLhyphen"/>poſtolical men, very unfit
+of themſelves for ſo great a work. All this (I ſay) is granted even by
+the enemies of Chriſtianity; and is manifeſt from <hi>Authentick
+Hiſtory,</hi> and <hi>conſtant Tradition:</hi> and ſhould our
+Adverſaries de<g ref="char:EOLhyphen"/>ny any of the forementioned circumſtances, they may be
+pro<g ref="char:EOLhyphen"/>ved againſt them out of the <hi>ſame Topicks,</hi> and with the
+<hi>ſame <pb n="20" facs="tcp:29434:26"/>Evidence,</hi> as other <hi>ancient
+mat<g ref="char:EOLhyphen"/>ters</hi> of Fact; which to deny, or queſtion, even to them, would ſeem
+a madneſs. Wherefore I conclude, that if there be ſome true
+<hi>revealed</hi> Religion, (as has been proved) Chriſtian Religi<g ref="char:EOLhyphen"/>on is
+true.</p>
+            <p n="5">V. If Chriſtian Religion be true, I prove, that
+<hi>Catholique</hi> Religion is true. By <hi>Catholique Religion</hi> I
+underſtand <hi>Roman Catholique,</hi> as will appear by my proofs: and there
+is no other <hi>Catholique</hi> Religion, but the <hi>Roman.</hi> If
+Chriſtian Religion be true, it may ſolidly be pro<g ref="char:EOLhyphen"/>ved againſt the enemies
+thereof; as we have proved it already, and as all profeſſors of
+Chriſti<g ref="char:EOLhyphen"/>anity do grant. Otherwiſe, why <pb n="21" facs="tcp:29434:26"/>ſhould they
+preach it, if they cannot prove it? If Chriſtian Religion may be ſolidly
+pro<g ref="char:EOLhyphen"/>ved; a <hi>Religion,</hi> that has the <hi>ſame proofs</hi> as
+Chriſtianity has, or <hi>any of them,</hi> that are <hi>Solid;</hi> muſt
+needs be true. For it is im<g ref="char:EOLhyphen"/>poſſible, that there ſhould be any ſolid,
+or real proof of a Falſity, according to that Prin<g ref="char:EOLhyphen"/>ciple, <hi>Ex vero tantum
+non ſe<g ref="char:EOLhyphen"/>quitur falſum.</hi> From Truth a<g ref="char:EOLhyphen"/>lone no Falſity can be deduced.
+If a Religion that has the ſame proofs <hi>as Chriſtianity has,</hi> be
+true, then <hi>Catholique Religion</hi> is true; for it has the <hi>ſame
+proofs</hi> as Chriſtianity: which will manifeſtly appear, if one reflects
+upon the grounds, whereby Chriſtians do commonly ſhew the truth of
+Chriſtianity againſt <pb n="22" facs="tcp:29434:27"/>her enemies. And becauſe our
+Adverſaries in this point, do profeſs themſelves to be Chri<g ref="char:EOLhyphen"/>ſtians, we
+ask them, why they are, or what ration<g ref="char:EOLhyphen"/>al inducement they have to be
+Chriſtians? or (which comes to the ſame) what ſolid proof can they
+produce to ſhew the Truth of Chriſtianity a<g ref="char:EOLhyphen"/>gainſt the enemies thereof?
+ad<g ref="char:EOLhyphen"/>vertiſing them, that it cannot be a ſolid proof of the Truth of
+Chriſtianity, that which agrees to <hi>Judaiſm, Paganiſm,</hi> or
+<hi>Ma<g ref="char:EOLhyphen"/>hometiſm,</hi> which we, <hi>as Chri<g ref="char:EOLhyphen"/>ſtians,</hi> believe to be
+falſe Reli<g ref="char:EOLhyphen"/>gions: And how can we per<g ref="char:EOLhyphen"/>ſwade our ſelves, that Chriſtian
+Religion is true, if we have no better proofs for it, than are for a Religion,
+which we firm<g ref="char:EOLhyphen"/>ly <pb n="23" facs="tcp:29434:27"/>believe to be falſe? And let's
+ſuppoſe, That our Adverſaries chuſe the reaſon above-menti<g ref="char:EOLhyphen"/>oned, of
+<hi>the miraculous propa<g ref="char:EOLhyphen"/>gation of Chriſtianity;</hi> which is a common,
+ſolid, and evident proof: the ſame would be, ſhould they produce any
+other ſolid proof of Chriſtianity. For it may be eaſily applied to
+<hi>Ca<g ref="char:EOLhyphen"/>tholique Religion.</hi> Now, if the truth of Chriſtian Religion be
+ſolidly proved, becauſe it was propagated in the manner above inſinuated,
+the Truth alſo of <hi>Catholique Religion</hi> is ſolidly proved by the
+like propagation. For, the <hi>Roman Catholique</hi> Re<g ref="char:EOLhyphen"/>ligion (as even our
+Adverſaries do confeſs, who blame her up<g ref="char:EOLhyphen"/>on that account) does contain,
+beſides the general principles of <pb n="24" facs="tcp:29434:28"/>Chriſtianity
+before-mentioned, very hard myſteries above the reach of humane reaſon; as
+(for inſtance) <hi>Tranſubſtantiation,</hi> which thwarts (as they ſay)
+all Senſe and Reaſon; and very hard Precepts, and Counſels, contrary to
+humane inclination, as <hi>Vows, Faſts, Conſeſſion, Prohi<g ref="char:EOLhyphen"/>bition</hi>
+for <hi>Prieſts</hi> to Marry, <hi>&amp;c.</hi>
+            </p>
+            <p>Moreover, the <hi>Roman Ca<g ref="char:EOLhyphen"/>tholique</hi> Religion, even as
+con<g ref="char:EOLhyphen"/>taining ſuch Doctrines as our Adverſaries ſtile errors, and
+corruptions, has been propaga<g ref="char:EOLhyphen"/>ted over a great part of the world, without
+<hi>the help of Arms,</hi> or <hi>humane Enticements,</hi> by men, who were
+commonly Strangers, and very unfit of themſelves, to reclaim, as they did,
+ſo vaſt a multitude of people from <hi>Pa<g ref="char:EOLhyphen"/>ganiſm,</hi> 
+               <pb n="25" facs="tcp:29434:28"/>eſtabliſhed among them, which preached Liberty and
+Pleaſures, to Chriſtian and Ca<g ref="char:EOLhyphen"/>tholique Religion, which prea<g ref="char:EOLhyphen"/>ches
+Mortification, and Severi<g ref="char:EOLhyphen"/>ties. So St. <hi>Auguſtin</hi> the Monk converted
+<hi>England,</hi> and St. <hi>Xa<g ref="char:EOLhyphen"/>verius</hi> divers Nations among the Indians;
+and ſeveral others have done the like in other Coun<g ref="char:EOLhyphen"/>tries; who were <hi>Roman
+Catho<g ref="char:EOLhyphen"/>liques,</hi> and preached the <hi>Roman Catholique</hi> Religion: All
+which is granted by moſt of our Ad<g ref="char:EOLhyphen"/>verſaries; and againſt ſuch, as
+ſhall deny any of the above<g ref="char:EOLhyphen"/>mentioned circumſtances, they may be made as
+manifeſt out of <hi>Authentique Hiſtory,</hi> and <hi>Tradi<g ref="char:EOLhyphen"/>tion,</hi> as
+we, or they, can make manifeſt againſt Pagans, the like circumſtances, in
+the propagati<g ref="char:EOLhyphen"/>on <pb n="26" facs="tcp:29434:29"/>of Chriſtian Religion: and whatever
+exception they make againſt this proof, or others commonly alledged for
+Catho<g ref="char:EOLhyphen"/>lick Religion, was, or might be made by the enemies of Chri<g ref="char:EOLhyphen"/>ſtianity,
+againſt the like proofs alledged for Chriſtian Religion: (and certainly
+there cannot be a ſolid exception made againſt a Truth:) and what they
+would anſwer the enemies of Chriſtia<g ref="char:EOLhyphen"/>nity in that caſe, if they anſwer
+ſolidly, we anſwer the ſame. Now (to uſe St. <hi>Auguſtins</hi>
+Ar<g ref="char:EOLhyphen"/>gument) the propagation of the <hi>Roman Catholique</hi> Religion in the
+manner aforeſaid, either was done <hi>with Miracles,</hi> or <hi>without
+them.</hi> If <hi>with them,</hi> then it was miraculouſly propa<g ref="char:EOLhyphen"/>gated, and
+conſequently is true: <pb n="27" facs="tcp:29434:29"/>if <hi>without them,</hi> what
+greater Miracle than this, <hi>viz.</hi> That ſuch a Religion ſhould be
+propagated in ſuch a manner, and that with<g ref="char:EOLhyphen"/>out any Miracle? Wherefore ſince
+we have the ſame proofs, and grounds, for <hi>Catholique</hi> Re<g ref="char:EOLhyphen"/>ligion, as
+for <hi>Chriſtian;</hi> if we will proceed rationally, we muſt be both
+<hi>Catholiques,</hi> and <hi>Chri<g ref="char:EOLhyphen"/>ſtians;</hi> or otherwiſe we can neither
+be <hi>Chriſtians,</hi> nor <hi>Ca<g ref="char:EOLhyphen"/>tholiques.</hi> And therefore I con<g ref="char:EOLhyphen"/>clude,
+that if <hi>Chriſtian</hi> Religi<g ref="char:EOLhyphen"/>on be true, as has been proved,
+<hi>Catholique</hi> Religion is true.</p>
+            <p n="6">VI. If <hi>Catholique</hi> Religion be true, I prove, that
+it teaches nothing whatſoever, <hi>as an Ar<g ref="char:EOLhyphen"/>ticle of Faith,</hi> which is not
+True, or which is an error, or <pb n="28" facs="tcp:29434:30"/>corruption. For, if
+<hi>Catholique</hi> Religion be true, it is free from all <hi>Fundamental, and
+Eſſential Errors,</hi> as is manifeſt: all ſuch Errors being
+deſtructive to the very <hi>Being of a True Religion.</hi> If Catholique
+Religion be Free from all <hi>Fundamental Errors,</hi> it does not err
+againſt any <hi>Funda<g ref="char:EOLhyphen"/>mental point</hi> of Religion. For a
+<hi>Fundamental</hi> error in Religi<g ref="char:EOLhyphen"/>on is nothing elſe, but an error
+againſt a <hi>Fundamental</hi> point of Religion. If Catholique Reli<g ref="char:EOLhyphen"/>gion
+does not err againſt any <hi>Fundamental point</hi> of Religion, then it does
+not err againſt this point, <hi>viz. That God is not the Author of any error,
+or corru<g ref="char:EOLhyphen"/>ption whatſoever;</hi> this being, doubtleſs, <hi>a Fundamental
+point</hi> of Religion; as all, who admit <pb n="29" facs="tcp:29434:30"/>any Religion, do
+conſeſs. If Catholique Religion does not err againſt the fore-mentioned
+point, it does not teach God to <hi>be the Author of any error, or corruption,
+whatſoever,</hi> or of any thing whatſoever, which is either an error, or
+corruption: for to teach this, is to err againſt the forementioned point; as
+is evident. If Catholique Religi<g ref="char:EOLhyphen"/>on does not teach God to be the Author of any
+error or corru<g ref="char:EOLhyphen"/>ption whatſoever, it does not teach any thing whatſoever as
+<hi>an Article of Faith,</hi> which is either an error, or corruption. For to
+teach a Thing as an Ar<g ref="char:EOLhyphen"/>ticle of Faith, is to teach <hi>God to be the Author of
+it,</hi> or that it has been delivered by God; as all do grant. Now ſince it
+is <pb n="30" facs="tcp:29434:31"/>manifeſt, according to the una<g ref="char:EOLhyphen"/>nimous conſent of
+both Catho<g ref="char:EOLhyphen"/>liques, and Proteſtants, (who blame us upon this account) that the
+Roman Catholique Re<g ref="char:EOLhyphen"/>ligion teaches, as <hi>Articles of Faith,</hi> Purgatory,
+Tranſubſtan<g ref="char:EOLhyphen"/>tiation, Invocation of Saints, Veneration of Images, Adorati<g ref="char:EOLhyphen"/>on
+of Chriſt in the Euchariſt, Infallibility of the Roman Ca<g ref="char:EOLhyphen"/>tholique Church,
+its perpetui<g ref="char:EOLhyphen"/>ty to the end of the world, our Canon of Scripture, and other
+Doctrinal Points controverted between us, and them; it muſt needs follow,
+that none of theſe Points are either errors or cor<g ref="char:EOLhyphen"/>ruptions. In the like
+manner we may conclude the ſame of any particular Point, which comes under
+debate: as (for inſtance) <pb n="31" facs="tcp:29434:31"/>I prove
+<hi>Tranſubſtantiation</hi> to be no error, nor corruption. The Roman
+Catholique Religion does not teach any thing as an <hi>Article of Faith,</hi>
+which is ei<g ref="char:EOLhyphen"/>ther an error, or a corruption; as has been ſhewn; otherwiſe it
+would not be a <hi>True Religion.</hi> But the <hi>Roman Catholique</hi>
+Reli<g ref="char:EOLhyphen"/>gion does teach, as an <hi>Article of Faith, Tranſubſtantiation,</hi>
+as all do confeſs. Therefore <hi>Tran<g ref="char:EOLhyphen"/>ſubſtantiation</hi> is no error,
+nor corruption. Wherefore I con<g ref="char:EOLhyphen"/>clude, That if Catholique Re<g ref="char:EOLhyphen"/>ligion be true (as
+has been pro<g ref="char:EOLhyphen"/>ved) it teaches nothing as <hi>an Article of Faith,</hi> (neither
+does it, as here it is taken, teach any thing, but what it teaches <hi>as
+ſuch</hi>) which is either an <hi>error,</hi> or a <hi>corruption:</hi> and
+conſe<g ref="char:EOLhyphen"/>quently <pb n="32" facs="tcp:29434:32"/>it is free from <hi>all errors, and
+corruptions</hi> whatſoever: which is what we pretended to prove.</p>
+            <p>And to draw into a cloſer Cir<g ref="char:EOLhyphen"/>cle all the forementioned proofs,
+ſuppoſing that it is true, That <hi>there is ſomething better than
+another,</hi> the proof of a true Deity runs thus. If <hi>there be ſome<g ref="char:EOLhyphen"/>thing
+better than another,</hi> there is <hi>ſomething the beſt of All
+Things.</hi> If there be <hi>ſomething the Beſt of All Things,</hi> there
+is a <hi>True God.</hi> Therefore if there <hi>be ſomething better than
+another,</hi> as certainly there is, <hi>there is a true God.</hi>
+            </p>
+            <p>A <hi>True Deity</hi> ſuppoſed, the proof of a <hi>True
+Religion</hi> is fra<g ref="char:EOLhyphen"/>med in this manner. If we <hi>ought to Worſhip God</hi>
+in what manner he will be worſhip<g ref="char:EOLhyphen"/>ped <pb n="33" facs="tcp:29434:32"/>by us, and <hi>obey
+him</hi> in what matters he will be obeyed by us, there muſt be <hi>ſome
+Doctrine,</hi> teaching us, in what manner God will be worſhipped by us, and
+in what matters he will be obey<g ref="char:EOLhyphen"/>ed by us. If there be <hi>ſome ſuch
+Doctrine,</hi> then there is <hi>ſome true Religion.</hi> Therefore if we
+ought to worſhip God, in what man<g ref="char:EOLhyphen"/>ner he will be worſhipped by us, and to
+obey him, in what matters he will be obeyed by us, (as, a True Deity
+ſuppo<g ref="char:EOLhyphen"/>ſed, doubtleſs we ought) there is <hi>ſome True
+Religion.</hi>
+            </p>
+            <p>Suppoſing that there is <hi>ſome True Religion,</hi> the proof
+of ſome true <hi>revealed</hi> Religion, is as fol<g ref="char:EOLhyphen"/>lows. If there be ſome
+<hi>Doctrine teaching us,</hi> in what manner God will be worſhipped by us, 
+<pb n="34" facs="tcp:29434:33"/>and in what matters he will be obeyed by us, it muſt
+<hi>be reveal<g ref="char:EOLhyphen"/>ed by God:</hi> if there be ſome <hi>ſuch Doctrine
+revealed</hi> by God, there is ſome true <hi>revealed</hi> Re<g ref="char:EOLhyphen"/>ligion.
+Therefore, if there be ſome <hi>Doctrine teaching us,</hi> in what manner God
+will be wor<g ref="char:EOLhyphen"/>ſhipped by us, and in what mat<g ref="char:EOLhyphen"/>ters he will be obeyed by us, (as
+evidently there is, a <hi>True Religion</hi> being ſuppoſed) there is
+ſome true <hi>revealed</hi> Religion.</p>
+            <p>Suppoſing that there is ſome <hi>true revealed Religion,</hi>
+the proof of <hi>Chriſtian</hi> Religion goes thus. If among all Religions
+which pretend to be <hi>revealed</hi> by God, that muſt be true, which has
+been <hi>miraculouſly propagated;</hi> certainly, that muſt be true; which,
+though containing ſeve<g ref="char:EOLhyphen"/>ral <pb n="35" facs="tcp:29434:33"/>Myſteries, far <hi>above the
+reach of Humane Reaſon,</hi> and divers ſeverities <hi>very contrary</hi>
+to <hi>Hu<g ref="char:EOLhyphen"/>mane Inclination,</hi> yet has been propagated over a great part of
+the world, <hi>without the help of Arms,</hi> or <hi>humane Enticements,</hi>
+by men very <hi>unfit</hi> of <hi>themſelves</hi> for ſo great a work; and
+has overcome other <hi>Religions eſta<g ref="char:EOLhyphen"/>bliſhed</hi> in the world, which
+<hi>preached liberty and pleaſures:</hi> If ſuch a Religion, propagated in
+ſuch a manner, be true, then Chriſtian Religion is true. Therefore, if
+among all Reli<g ref="char:EOLhyphen"/>gions, which pretend to be <hi>re<g ref="char:EOLhyphen"/>vealed</hi> by God, that
+muſt be true, which has been <hi>miracu<g ref="char:EOLhyphen"/>culouſly propagated;</hi> (as
+cer<g ref="char:EOLhyphen"/>tainly it muſt, ſuppoſing that there is ſome true revealed
+Re<g ref="char:EOLhyphen"/>ligion) <pb n="36" facs="tcp:29434:34"/>
+               <hi>Chriſtian</hi> Religion is true.</p>
+            <p>Suppoſing that <hi>Chriſtian</hi> Re<g ref="char:EOLhyphen"/>ligion is true, and that
+the fore<g ref="char:EOLhyphen"/>mentioned reaſon is ſolid, as doubtleſs it is; the proof of
+<hi>Catholique</hi> Religion is thus. If Chriſtian Religion be true,
+be<g ref="char:EOLhyphen"/>cauſe <hi>propagated in the manner aforeſaid,</hi> a Religion, that
+though containing as <hi>high My<g ref="char:EOLhyphen"/>ſteries,</hi> and as <hi>hard Precepts</hi>
+as Chriſtianity, yet has been pro<g ref="char:EOLhyphen"/>pagated in <hi>the like manner,</hi> muſt
+needs be true. If ſo, then Ca<g ref="char:EOLhyphen"/>tholick Religion is True. There<g ref="char:EOLhyphen"/>fore, if
+Chriſtian Religion be true, becauſe propagated in the manner aforeſaid
+(as beyond Debate it is in the foremention<g ref="char:EOLhyphen"/>ed ſuppoſition) Catholique
+Re<g ref="char:EOLhyphen"/>ligion is True.</p>
+            <p>
+               <pb n="37" facs="tcp:29434:34"/>Finally, ſuppoſing Catholick Religion to
+be true, we prov'd, That it does not teach any thing as <hi>an Article of
+Faith,</hi> which is not true, in this manner. If Catholique Religion be true,
+it does not err againſt any <hi>Funda<g ref="char:EOLhyphen"/>mental Point;</hi> if ſo, it does not
+teach any Thing as an <hi>Article of Faith,</hi> which is not true. Therefore,
+if Catholique Re<g ref="char:EOLhyphen"/>ligion be true, as it is in the preſent ſuppoſition, it
+does not teach any thing as <hi>an Article of Faith,</hi> which is not true; or
+which is an error or corrupti<g ref="char:EOLhyphen"/>on.</p>
+            <p>All theſe particular Propoſi<g ref="char:EOLhyphen"/>tions have been expoun<g ref="char:EOLhyphen"/>ded more
+at large in the former ſix Points.</p>
+            <p>
+               <pb n="38" facs="tcp:29434:35"/>But becauſe many of our Ad<g ref="char:EOLhyphen"/>verſaries do
+admit ſeveral of the forementioned points; and be<g ref="char:EOLhyphen"/>cauſe it is not
+neceſſary to prove what our Adverſary of his own accord does admit, you
+may begin with the ſixth, and laſt point, and ask your Adverſa<g ref="char:EOLhyphen"/>ry,
+whether he grants the Ro<g ref="char:EOLhyphen"/>man Catholick Religion to be a true Religion? If he
+grants it, then prove, according to the manner there ſet down, that it
+teaches nothing as an Article of Faith, which is not true; or which is an
+error, or corrupti<g ref="char:EOLhyphen"/>on. If he denies it, then ask him, whether he grants
+Chri<g ref="char:EOLhyphen"/>ſtian Religion to be true; If he grants it, then prove, in confor<g ref="char:EOLhyphen"/>mity
+to the way contained in the fifth Point, that Catholick <pb n="39" facs="tcp:29434:35"/>Religion is true. If he denies it, then ask him, whether he grants any
+revealed Religion to be true? If he grants it, then ſhew, according to the
+Argument fra<g ref="char:EOLhyphen"/>med in the fourth Point, that Chriſtian Religion is true. If he
+denies it, then ask him, whe<g ref="char:EOLhyphen"/>ther he grants any true Religi<g ref="char:EOLhyphen"/>on? If he grants
+it, then prove, according to the Diſcourſe for<g ref="char:EOLhyphen"/>med in the third Point, that
+there is ſome true revealed Re<g ref="char:EOLhyphen"/>ligion. If he denies it, then ask him, whether
+he grants a True God? If he grants it, then prove, according to the Argument
+pro<g ref="char:EOLhyphen"/>poſed in the ſecond Point, that there is ſome true Religion. If he
+denies it, then ask him in the laſt place, whether he grants that there is
+ſomething true? as <pb n="40" facs="tcp:29434:36"/>(for example) that there is
+ſomething better than another? which he muſt grant, unleſs he be a Mad
+man, or a Fool; and conſequently uncapable to be dealt with by
+Diſcourſes: and then prove, according to the Argument couched in the
+firſt Point, that there is a true God: proceeding always forwards, till you
+have ſhewn, that the <hi>Roman Catholick</hi> R<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ligion is ex<g ref="char:EOLhyphen"/>empt from all errors and cor<g ref="char:EOLhyphen"/>ruptions
+whatſoever: which is the drift of this ſhort Diſcourſe.</p>
+            <p>And ſince no Body does, or can diſſent from the Catholick
+Religion, but upon the account of ſome Doctrine taught by it as <hi>an
+Article of Faith,</hi> which the Diſſenter judges to be an error, or
+corruption; what <pb n="41" facs="tcp:29434:36"/>more can be required to con<g ref="char:EOLhyphen"/>vince the
+judgment of all Diſ<g ref="char:EOLhyphen"/>ſenters whatſoever from the True and Catholick
+Religion, than to prove (as we have done, in the fore-mentioned points) that it
+does not teach any Thing whatſoever, as an <hi>Article of Di<g ref="char:EOLhyphen"/>vine Faith,</hi>
+which is either an error, or corruption.</p>
+            <p>From the fore-mentioned Me<g ref="char:EOLhyphen"/>thod we may infer by ſeveral
+conſequences, (ſince one error produces another) that who<g ref="char:EOLhyphen"/>ever denies the
+Catholick Reli<g ref="char:EOLhyphen"/>gion to be free from all errors, and corruptions whatſoever,
+muſt needs deny himſelf to be better then a Mad man, or a Fool. For, if
+Catholick Reli<g ref="char:EOLhyphen"/>gion be not free from all errors <pb n="42" facs="tcp:29434:37"/>and
+corruptions whatſoever, it muſt teach ſomething as <hi>an Ar<g ref="char:EOLhyphen"/>ticle of
+Faith,</hi> which is either an error, or corruption. If it does teach
+ſomething <hi>as an Article of Faith,</hi> which is either an error, or
+corruption, it is not Free from <hi>all Fundamental Errors:</hi> if it be not
+Free from all Fun<g ref="char:EOLhyphen"/>damental Errors, it is not <hi>True:</hi> if it be not true,
+<hi>Chriſtian</hi> Re<g ref="char:EOLhyphen"/>ligion is <hi>not True:</hi> if Chriſtian Religion be
+not True, no <hi>revea<g ref="char:EOLhyphen"/>led</hi> Religion is True: if no <hi>re<g ref="char:EOLhyphen"/>vealed</hi>
+Religion be true, <hi>no Re<g ref="char:EOLhyphen"/>ligion is True:</hi> if no Religion be True, there
+is <hi>no True God:</hi> if there be no True God, there is nothing <hi>the
+Beſt of All Things:</hi> if there be nothing the Beſt of all Things, there
+is nothing <hi>bet<g ref="char:EOLhyphen"/>ter than another:</hi> and finally, if <pb n="43" facs="tcp:29434:37"/>there be <hi>nothing better than an<g ref="char:EOLhyphen"/>other,</hi> the perſon, with
+whom we diſpute, is <hi>no better</hi> than a Mad man, or a Fool. So that,
+whoever denies the Catholick Religion to be free from all er<g ref="char:EOLhyphen"/>rors and
+corruptions whatſo<g ref="char:EOLhyphen"/>ever, will be forced, unleſs he recants, to deny
+himſelf to be better than a Mad man, or a Fool: which before any rati<g ref="char:EOLhyphen"/>onal
+man will be forced to do, certainly, he will recal the er<g ref="char:EOLhyphen"/>ror, from which
+ſuch vaſt ab<g ref="char:EOLhyphen"/>ſurdities are deduced; and o<g ref="char:EOLhyphen"/>penly confeſs, that the
+Catho<g ref="char:EOLhyphen"/>lique Religion, or Faith, is free from all errors, and corruptions
+imaginable. And though the laſt Propoſition be deduced from ſeveral
+precedent conſe<g ref="char:EOLhyphen"/>quences; yet this Method is <pb n="44" facs="tcp:29434:38"/>common even
+among Mathe<g ref="char:EOLhyphen"/>maticians, who are thought by all to proceed a moſt conclu<g ref="char:EOLhyphen"/>ding,
+and demonſtrative way.</p>
+            <p>Moreover, according to the ſame Method, we may ſhew the Truth
+of any Point, delivered by the Roman Catholique Re<g ref="char:EOLhyphen"/>ligion, <hi>as an Article of
+Faith,</hi> whether it be ſpeculative or pra<g ref="char:EOLhyphen"/>ctical; of little, or great
+mo<g ref="char:EOLhyphen"/>ment, hard and above the reach of Natural Reaſon; or eaſie and
+ſuitable to Humane underſtand<g ref="char:EOLhyphen"/>ing. For the Catholick Religi<g ref="char:EOLhyphen"/>on (as we have
+proved) does teach nothing <hi>as an Article of Faith,</hi> which is not true:
+and ſure, it is againſt the very eſ<g ref="char:EOLhyphen"/>ſence of a true Religion, (ſuch
+as the Catholick Religion is) to father upon God any thing that 
+<pb n="45" facs="tcp:29434:38"/>that is not true, ſpeculative or practical, little or
+great, hard or eaſie; and to teach a Thing as <hi>an Article</hi> of Faith,
+is to father it upon God. And though Ca<g ref="char:EOLhyphen"/>tholicks be commanded many Things by
+their Eccleſiaſtical Superiours, (as Faſting upon Fridays, annual
+Confeſſion, and ſuch like) which are no Articles of Faith; yet 'tis an
+Article of Catholique Faith, that we are bound to obey our lawful Su<g ref="char:EOLhyphen"/>periours,
+whether Eccleſiaſtical or Civil.</p>
+            <p>And as concerning the <hi>hard<g ref="char:EOLhyphen"/>neſs</hi> of ſome Myſteries,
+taught by the <hi>Roman</hi> Catholick Reli<g ref="char:EOLhyphen"/>gion as <hi>Articles of Faith,</hi>
+it can be no Argument to prove that it is not a true Religion. For, certain it
+is, that God does <hi>know</hi> very high, and hard Myſteries, 
+<pb n="46" facs="tcp:29434:39"/>far above the reach of humane underſtanding, and contrary
+to the notions of Things here be<g ref="char:EOLhyphen"/>low. If he does <hi>know</hi> them, he may
+<hi>reveal</hi> them. If he may <hi>re<g ref="char:EOLhyphen"/>veal</hi> them, then a <hi>true
+Religion</hi> (ſince it muſt be <hi>revealed</hi> by God) may
+<hi>contain</hi> ſuch myſte<g ref="char:EOLhyphen"/>ries. And if a True Religion may
+<hi>contain</hi> ſuch Myſteries, it can be no good argu<g ref="char:EOLhyphen"/>ment that a
+Religion is <hi>not true,</hi> becauſe it <hi>does contain</hi> ve<g ref="char:EOLhyphen"/>ry high,
+and hard Myſteries, above the reach of humane un<g ref="char:EOLhyphen"/>derſtanding, and contrary
+to the notions of Things, which hu<g ref="char:EOLhyphen"/>mane reaſon comprehends. Yea, the harder
+the Myſteries are, which the <hi>Roman</hi> Catholick Re<g ref="char:EOLhyphen"/>ligion does contain,
+the <hi>more miraculous</hi> is the propagation thereof. For eaſie Things are
+<pb n="47" facs="tcp:29434:39"/>believed with eaſe; but hard Things are not believed
+with<g ref="char:EOLhyphen"/>out great difficulty: And the more miraculous the propagati<g ref="char:EOLhyphen"/>on of the
+<hi>Roman</hi> Catholick Re<g ref="char:EOLhyphen"/>ligion is, <hi>the more reaſon</hi> there is to
+believe, that it is a true Re<g ref="char:EOLhyphen"/>ligion.</p>
+            <p>In the like manner, following the ſame Method, we may e<g ref="char:EOLhyphen"/>vince,
+that the <hi>Roman</hi> Catho<g ref="char:EOLhyphen"/>lick Religion is, not only a <hi>True
+Religion,</hi> but the <hi>true Religion;</hi> and that the <hi>Roman</hi>
+Catholick Church is, not only a <hi>True Church,</hi> but the true Church: (By
+a <hi>true Church</hi> we under<g ref="char:EOLhyphen"/>ſtand a Congregation of men that profeſs a
+true Religion; and by the <hi>true Church</hi> we un<g ref="char:EOLhyphen"/>derſtand the
+Congregation of all ſuch, as profeſs the <hi>true <pb n="48" facs="tcp:29434:40"/>Religion;</hi> and a true Church and a true Religion are taken, as
+con-diſtinguiſhed from a falſe Church, and a falſe Religion:) That out
+of the <hi>Roman</hi> Church there is no Salvation, and that no Church, which
+is not a Mem<g ref="char:EOLhyphen"/>ber of the <hi>Roman</hi> Church, is a Member of the True Church:
+For all theſe Points are delive<g ref="char:EOLhyphen"/>red as <hi>Articles of Faith</hi> by the
+<hi>Roman</hi> Church; as both we, and our Adverſaries do confeſs. That it
+is, not only a <hi>True</hi> Religion, but alſo a <hi>ſound</hi> Religion.
+For, what more can be required for <hi>the ſoundneſs</hi> thereof, than
+that it ſhould not teach <hi>any corrupti<g ref="char:EOLhyphen"/>on whatſoever?</hi> as we have
+pro<g ref="char:EOLhyphen"/>ved it does not. That it is <hi>en<g ref="char:EOLhyphen"/>tirely</hi> a true Religion, contain<g ref="char:EOLhyphen"/>ing
+all Things neceſſary to be <pb n="49" facs="tcp:29434:40"/>believed, and all Things
+neceſ<g ref="char:EOLhyphen"/>ſary to be done, in order to Salvation; either <hi>neceſſitate
+medii,</hi> or <hi>neceſſitate praecepti.</hi> For this alſo it delivers
+as an <hi>Article of Faith.</hi> Yea, half a Re<g ref="char:EOLhyphen"/>ligion is not a true Religion;
+as half a man, <hi>viz.</hi> the Body a<g ref="char:EOLhyphen"/>lone of a man, is not a true man. That
+it is, not only <hi>True,</hi> what<g ref="char:EOLhyphen"/>ſoever the <hi>Roman</hi> Church
+deli<g ref="char:EOLhyphen"/>vers as <hi>an Article of Faith,</hi> and <hi>as revealed</hi> by God, but
+alſo 'tis true, <hi>That it is an Article of Faith,</hi> and
+<hi>revealed</hi> by God: as for example, not only the Myſtery of the Trinity
+is <hi>true;</hi> but alſo 'tis true, that it is <hi>re<g ref="char:EOLhyphen"/>vealed.</hi> For it
+is an <hi>Article of Faith, that thoſe Books,</hi> where<g ref="char:EOLhyphen"/>in the Myſtery of
+the Trinity is contained, and declared to <pb n="50" facs="tcp:29434:41"/>be ſo, are the
+<hi>True Word,</hi> and <hi>Revelation of God.</hi> So that one would be an
+Heretick, not only if he ſhould deny the Myſtery of the Trinity, but alſo
+if he ſhould deny it to be <hi>revealed:</hi> and as one cannot be a true,
+and loyal Subject, who counterfeits the Kings <hi>Hand</hi> and <hi>Seal;</hi>
+ſo that Religion cannot be true, which <hi>Counterfeits Gods Word,</hi>
+delivering (in order to <hi>autho<g ref="char:EOLhyphen"/>rize</hi> any Thing whatſoever) Things as
+<hi>revealed</hi> by him, which he never revealed. Fi<g ref="char:EOLhyphen"/>nally, that whatſoever
+the Ro<g ref="char:EOLhyphen"/>man Catholick Religion, or Church, teaches as <hi>an Article of
+Faith,</hi> is not only true, but <hi>infallibly true.</hi> For, among other
+Points, that it deli<g ref="char:EOLhyphen"/>vers as <hi>Articles of Faith,</hi> (and 
+<pb n="51" facs="tcp:29434:41"/>conſequently are true) one is <hi>its own Infallibility
+in matters of Faith;</hi> as all do grant. It is therefore true, that the
+<hi>Roman</hi> Religion is <hi>Infallible</hi> in ſuch matters: and if ſo,
+then it muſt neceſſarily follow, that what<g ref="char:EOLhyphen"/>ſoever it declares as <hi>a
+matter of Faith,</hi> is infallibly true. For, it is impoſſible, that the
+Sentence of an Infallible Judge ſhould be falſe.</p>
+            <p>Beſides, ſince we have ſhewn that the <hi>Roman</hi>
+Catholick Church is free from all <hi>Fundamental</hi> errors, it is
+inferred,</p>
+            <p n="1">1. That it does not err a<g ref="char:EOLhyphen"/>gainſt any <hi>Fundamental Point
+whatſoever,</hi> either mediately, or <hi>immediately.</hi> For, an error
+does not ceaſe to be <hi>Fundamen<g ref="char:EOLhyphen"/>tal,</hi> 
+               <pb n="52" facs="tcp:29434:42"/>becauſe it
+is only mediate<g ref="char:EOLhyphen"/>ly, and by conſequence, oppo<g ref="char:EOLhyphen"/>ſite to a <hi>Fundamental</hi>
+Point. For to be <hi>mediately</hi> oppoſite to a point, is to be oppoſite
+to that point, and another point alſo, whereon the Truth of the former
+depends. A Diſeaſe, or Wound does not ceaſe to be <hi>mortal,</hi>
+becauſe it infers only <hi>mediately</hi> the death of a man, deſtroying
+<hi>immediately</hi> only the Diſpoſitions neceſſary for the
+conſervation of his life; which being once deſtroyed, there fol<g ref="char:EOLhyphen"/>lows the
+ſeparation between the Body and the Soul; wherein the Death of man formally
+con<g ref="char:EOLhyphen"/>ſiſts.</p>
+            <p n="2">2. That it cannot be ſaid, That the <hi>Roman</hi>
+Catholick Re<g ref="char:EOLhyphen"/>ligion does not err againſt any <pb n="53" facs="tcp:29434:42"/>
+               <hi>Fundamental</hi> point, <hi>preciſely</hi> be<g ref="char:EOLhyphen"/>cauſe <hi>it
+holds all the Fundamen<g ref="char:EOLhyphen"/>tal points</hi> of the True Religi<g ref="char:EOLhyphen"/>on. For a Religion
+may con<g ref="char:EOLhyphen"/>tradict it ſelf, and err againſt that very point, which it holds.
+Certainly, a Religion, which ſhould deny Chriſt to be God, would err
+<hi>Fundamentally;</hi> and conſequently, would be no <hi>true Religion;</hi>
+though it ſhould, con<g ref="char:EOLhyphen"/>tradicting it ſelf, hold at the ſame time; that
+Chriſt is God, and all other poſitive points of the True Religion. To the
+truth therefore of a Religion it is requiſite, not only that it
+<hi>holds</hi> all Fundamental points of the true Religion; but alſo, that it
+does <hi>not deny</hi> any of them, neither <hi>mediately,</hi> nor
+<hi>immediately;</hi> obſerving, what <pb n="54" facs="tcp:29434:43"/>is related of St.
+<hi>John Baptiſt,</hi> [Joan. 1.30] <hi>Confeſſus eſt, &amp; non
+negavit:</hi> He confeſt, and did not deny.</p>
+            <p n="3">3. That it cannot be affirm<g ref="char:EOLhyphen"/>ed, That a Religion is true, and
+conſequently, that it does not err againſt any <hi>Fundamental</hi> point,
+becauſe <hi>ſome,</hi> who pro<g ref="char:EOLhyphen"/>feſs it, are excuſed by <hi>Invinci<g ref="char:EOLhyphen"/>ble
+Ignorance.</hi> For, invincible ignorance, though it excuſes him, who has it,
+from <hi>erring maliciouſly,</hi> yet it does not ex<g ref="char:EOLhyphen"/>cuſe him <hi>from
+erring;</hi> nor the Religion, which ſhould contain ſuch an error, from
+being <hi>erro<g ref="char:EOLhyphen"/>neous,</hi> and <hi>heretical</hi> too, if the point, againſt
+which it errs, be <hi>an Article of Faith.</hi> Sure, a man that ſhould ſay
+<hi>That Chriſt is not God,</hi> would err <hi>Fundamen<g ref="char:EOLhyphen"/>tally,</hi> 
+               <pb n="55" facs="tcp:29434:43"/>whether he ſaid it out of <hi>ignorance,</hi> or
+<hi>malice:</hi> and a Religion, that ſhould teach ſuch an error, would be
+an <hi>Heretical</hi> Religion, and err againſt a <hi>Fun<g ref="char:EOLhyphen"/>damental</hi>
+point, <hi>viz.</hi> the Di<g ref="char:EOLhyphen"/>vinity of Chriſt.</p>
+            <p n="4">4. That a Religion, which teaches God to be the Author of
+any Thing, that is <hi>really an error,</hi> muſt needs err againſt a
+<hi>Fundamental</hi> point, though it teaches ſuch a Thing <hi>as a
+Truth.</hi> For, to err, is to teach a Thing <hi>as a Truth,</hi> which
+<hi>really</hi> is an <hi>error.</hi> The <hi>Arrians,</hi> doubtleſs, erred
+againſt a <hi>Fundamental</hi> point, by teaching <hi>that Chriſt was not
+God;</hi> which was really <hi>an error,</hi> though they thought it to be
+<hi>a Truth.</hi> Wherefore the <hi>Roman</hi> Catholick Religion can<g ref="char:EOLhyphen"/>not 
+<pb n="56" facs="tcp:29434:44"/>be free from all <hi>Fundamen<g ref="char:EOLhyphen"/>tal</hi> errors, unleſs
+whatſoever it teaches <hi>as an Article of Faith</hi> be really true; and not
+only <hi>judged</hi> by the Church to be ſo.</p>
+            <p>According to the ſame Me<g ref="char:EOLhyphen"/>thod we convince at once the Truth of
+all our Articles of Faith. For we have ſhewed, that whatſoever the
+<hi>Roman</hi> Church teaches <hi>as an Article of Faith,</hi> is true;
+otherwiſe, it would not be a <hi>true</hi> Church; and that there is <hi>no
+Article of Faith,</hi> which is not delivered <hi>as ſuch</hi> by the
+<hi>Ro<g ref="char:EOLhyphen"/>man</hi> Church; otherwiſe it would not be <hi>entirely</hi> true.
+Whence we avoid the tedious way of Treating Controverſies, (for which the
+whole life of man is ſcarce ſufficient) <hi>viz.</hi> of pro<g ref="char:EOLhyphen"/>ving each
+point of Controver<g ref="char:EOLhyphen"/>ſie <pb n="57" facs="tcp:29434:44"/>by it ſelf, and out of its own
+proper reaſons: though I do not hinder, but that we may prove ſome
+particular points this way alſo; yet we have inſinuated above in the
+ſixth Point, how we may apply this general way, to decide any particular
+queſti<g ref="char:EOLhyphen"/>on concerning matters of Faith; wherein the party, with whom we deal,
+deſires ſatisfaction.</p>
+            <p>Again, the ſame Method will teach us, how we may, with eaſe,
+diſcover all Hereſies whatſo<g ref="char:EOLhyphen"/>ever. For it is eaſie to know, what
+Doctrines are delivered by the <hi>Roman</hi> Catholick Church, (which we have
+proved to be, not only a <hi>true,</hi> but the <hi>true</hi> Church) as
+<hi>Articles of Faith;</hi> either out of the Canons of Ge<g ref="char:EOLhyphen"/>neral Councils,
+admitted by <pb n="58" facs="tcp:29434:45"/>that Church, or out of the Au<g ref="char:EOLhyphen"/>thentick
+Catechiſms, or Pro<g ref="char:EOLhyphen"/>feſſions of Faith, uſed among Catholicks; or finally
+out of the unanimous conſent of Ca<g ref="char:EOLhyphen"/>tholick Doctors: and if there be a Debate
+among Catholick Writers, whether ſuch a Do<g ref="char:EOLhyphen"/>ctrine be delivered by the
+<hi>Ro<g ref="char:EOLhyphen"/>man</hi> Catholick Church as <hi>an Article of Faith;</hi> we oblige no
+Body to look upon it as <hi>an Ar<g ref="char:EOLhyphen"/>ticle of Faith</hi> of that Church: nay, the
+conteſt between Ca<g ref="char:EOLhyphen"/>tholicks and no Catholicks is not, whether ſuch
+Doctrines be <hi>Articles of the Catholick Faith,</hi> or not, but whether they
+be <hi>errors</hi> or <hi>truths.</hi> Now, if one knows, what Doctrines are
+de<g ref="char:EOLhyphen"/>livered by the Catholick Church, as <hi>Articles of Faith,</hi> 
+               <pb n="59" facs="tcp:29434:45"/>he may eaſily know, what Pro<g ref="char:EOLhyphen"/>poſitions are
+<hi>immediately</hi> oppo<g ref="char:EOLhyphen"/>ſite to ſuch Doctrines. As for example, if one
+knows, that <hi>Purgatory</hi> is delivered as an <hi>Ar<g ref="char:EOLhyphen"/>ticle of Faith</hi> by
+the Catholick Church, he cannot but ſee, that <hi>No-Purgatory,</hi> (or the
+denial of <hi>Purgatory</hi>) is immediately op<g ref="char:EOLhyphen"/>poſite to ſuch an Article.
+And if one knows, what Propoſiti<g ref="char:EOLhyphen"/>ons are <hi>immediately oppoſite</hi> to
+ſuch Doctrines, as the Catho<g ref="char:EOLhyphen"/>lick Church delivers as <hi>Articles of
+Faith,</hi> he knows alſo, what Propoſitions are <hi>Formal
+Here<g ref="char:EOLhyphen"/>ſies.</hi> For all <hi>Formal Here ſies</hi> whatſoever are
+<hi>immediately</hi> op<g ref="char:EOLhyphen"/>poſite to <hi>ſome Doctrine,</hi> taught by the
+True Church (<hi>i. e.</hi> the Catholick) as an <hi>Article of Faith.</hi>
+            </p>
+            <p>
+               <pb n="60" facs="tcp:29434:46"/>Moreover, if one knows; what other
+Propoſitions do <hi>ne<g ref="char:EOLhyphen"/>ceſſarily infer</hi> any Formal He<g ref="char:EOLhyphen"/>teſie, he
+knows alſo, what Pro<g ref="char:EOLhyphen"/>poſitions are <hi>virtual Hereſies.</hi> For a'l
+<hi>virtual Hereſie</hi> muſt ne<g ref="char:EOLhyphen"/>ceſſarily infer a <hi>Formal
+Hereſie.</hi> And becauſe the <hi>Roman</hi> Catho<g ref="char:EOLhyphen"/>lick Church is, not only
+<hi>now</hi> the True Church, but will be till <hi>the worlds end;</hi> (for
+among o<g ref="char:EOLhyphen"/>ther things, which ſhe delivers as <hi>Articles of Faith,</hi> one is
+her own <hi>perpetuity</hi>) by help of this Method we are taught, not on<g ref="char:EOLhyphen"/>ly
+what Hereſies now are, or have been; but alſo what Here<g ref="char:EOLhyphen"/>ſies <hi>ſhall
+be hereafter:</hi> if it hap<g ref="char:EOLhyphen"/>pens, that any <hi>new Hereſies</hi> be
+broached. For all Hereſies what<g ref="char:EOLhyphen"/>ſoever muſt, neceſſarily be
+<hi>con<g ref="char:EOLhyphen"/>trary</hi> to <hi>ſome Doctrine</hi> delive<g ref="char:EOLhyphen"/>red <pb n="61" facs="tcp:29434:46"/>by the Catholick Church, as an <hi>Article of Faith.</hi>
+            </p>
+            <p>Yet further, by the means of this Method we may ſolve all
+<hi>Objections</hi> againſt the Truth of the <hi>Roman</hi> Catholick Church,
+or any Doctrine delivered by it as <hi>an Article of Faith;</hi> ſhewing in
+general, That whatſoever is, or can be objected againſt us in this kind,
+either from <hi>Reaſon,</hi> or <hi>Authority,</hi> is falſe, or
+Incouclu<g ref="char:EOLhyphen"/>ſive. For, if the <hi>Roman</hi> Catho<g ref="char:EOLhyphen"/>lick Church be a
+<hi>True</hi> Church, and if whatſoever ſhe teaches as <hi>an Article of
+Faith,</hi> be <hi>True,</hi> as we have evinced; it follows evidently, that
+what ever is, or can be, objected againſt our Church, or any Article thereof,
+muſt neceſſarily be either <hi>Falſe,</hi> or <hi>Inconcluſive.</hi>
+For it is a ma<g ref="char:EOLhyphen"/>nifeſt <pb n="62" facs="tcp:29434:47"/>principle of Logick, That <hi>there
+can be no True, Solid, and Real Proof againſt a Truth, or of a
+Falſity.</hi> True it is, that this Method doth not inſtruct us, how we are
+to anſwer in <hi>parti<g ref="char:EOLhyphen"/>cular</hi> every. Objection againſt the Truth of the
+<hi>Roman</hi> Church, and of the Doctrines which ſhe delivers as
+<hi>Articles of Faith.</hi> But this is not neceſſary, to the end we may
+remain <hi>fully ſatisfied,</hi> concerning the <hi>Falſity</hi> or
+<hi>Incon<g ref="char:EOLhyphen"/>cluſiveneſs</hi> of whatſoever is ob<g ref="char:EOLhyphen"/>jected againſt her, or
+her Arti<g ref="char:EOLhyphen"/>cles. All men are firmly per<g ref="char:EOLhyphen"/>ſwaded, that there is <hi>Local
+Mo<g ref="char:EOLhyphen"/>tion,</hi> and that we move from one place to another, as <hi>reaſon,</hi>
+and <hi>experience,</hi> do evidently de<g ref="char:EOLhyphen"/>monſtrate; and conſequently,
+according to the Principle juſt <pb n="63" facs="tcp:29434:47"/>now inſinuated, they
+are <hi>cer<g ref="char:EOLhyphen"/>vain,</hi> that whatſoever is object<g ref="char:EOLhyphen"/>ed againſt <hi>Local
+Motion,</hi> al<g ref="char:EOLhyphen"/>though it ſeem never ſo hard, is either <hi>Falſe,</hi>
+or <hi>Incluſive.</hi> Yet very few can ſhew <hi>directly,</hi> even with
+<hi>probability,</hi> and perhaps no Body <hi>with evidence,</hi> how and why
+each Objection in particu<g ref="char:EOLhyphen"/>lar againſt <hi>Local Motion,</hi> is ei<g ref="char:EOLhyphen"/>ther
+<hi>Falſe,</hi> or <hi>Inconcluſive.</hi> And generally ſpeaking, one may
+be certain (as ſeveral obvious in<g ref="char:EOLhyphen"/>ſtances do evince) that ſuch a Thing is
+ſo, without knowing, or being able to aſſign, ei<g ref="char:EOLhyphen"/>ther the <hi>particular
+manner,</hi> how it is ſo; or the <hi>direct and proper reaſon,</hi> why it
+is ſo: and conſequently one may be fully ſatisfied, that ſuch an
+objecti<g ref="char:EOLhyphen"/>on is either <hi>Falſe,</hi> or <hi>Inconclu<g ref="char:EOLhyphen"/>ſive,</hi> 
+               <pb n="64" facs="tcp:29434:48"/>though he be not able to give the proper, and direct
+rea<g ref="char:EOLhyphen"/>ſon why it is ſo.</p>
+            <p>And although I muſt needs confeſs, that there are ſeveral
+other ways, to demonſtrate the Truth of the <hi>Roman Catholick</hi>
+Religion; as there may be <hi>ma<g ref="char:EOLhyphen"/>ny reaſons,</hi> and all of them ve<g ref="char:EOLhyphen"/>ry good,
+to prove the <hi>ſame Truth:</hi> yet it is eaſie to force our Adverſary
+to come to this Method. For, all Methods what<g ref="char:EOLhyphen"/>ſoever, to prove the true
+Reli<g ref="char:EOLhyphen"/>gion, or any other verity, are grounded, either upon <hi>Reaſon,</hi> or
+<hi>Authority.</hi> If our Adverſary will be tried by <hi>Reaſon,</hi> the
+way we have taken in this Method, in order to find out the true Re<g ref="char:EOLhyphen"/>ligion, is
+built upon <hi>Reaſon.</hi> For <hi>Reaſon</hi> ſhews us, that there is 
+<pb n="65" facs="tcp:29434:48"/>
+               <hi>ſomething better than another;</hi> and that if
+<hi>there be ſomething better than another,</hi> there <hi>is a God,</hi> and
+that if there <hi>be a God,</hi> there is a <hi>True Religion:</hi> and thus
+<hi>Reaſon</hi> guides us down<g ref="char:EOLhyphen"/>wards, through the forementi<g ref="char:EOLhyphen"/>oned Points, till
+it has proved, That <hi>the Roman Catholick Re<g ref="char:EOLhyphen"/>ligion delivers nothing as an
+Ar<g ref="char:EOLhyphen"/>ticle of Faith, which is not true:</hi> and that then we are to believe her
+in whatſoever ſhe teaches <hi>as ſuch.</hi>
+            </p>
+            <p>But if our Adverſary will be tried by <hi>Authority,</hi> either
+of <hi>Scriptures,</hi> or <hi>General Councils,</hi> or <hi>ancient
+Fathers,</hi> or <hi>Modern Writers,</hi> This Trial, if it be well managed,
+muſt depend upon the knowledge of the <hi>True Church,</hi> and <hi>True
+Religion.</hi> For certain<g ref="char:EOLhyphen"/>ly, <pb n="66" facs="tcp:29434:49"/>no Body, in matters of
+Re<g ref="char:EOLhyphen"/>ligion, is bound to be tried by the Scriptures, Councils, or Do<g ref="char:EOLhyphen"/>ctors of a
+<hi>Falſe Religion.</hi> We cannot in prudence require of a Chriſtian to
+ſtand, in Debates of Religion, to the Deciſions of the <hi>Alchoran,</hi>
+the Scripture of the <hi>Turks;</hi> or to the De<g ref="char:EOLhyphen"/>crees of their Councils, and
+Do<g ref="char:EOLhyphen"/>ctors. Wherefore, when men appeal to <hi>Scriptures, Councils,</hi> or
+<hi>Doctors,</hi> for the determinati<g ref="char:EOLhyphen"/>on of Religious Debates, doubt<g ref="char:EOLhyphen"/>leſs,
+their intention is to appeal to ſuch Scriptures, and Coun<g ref="char:EOLhyphen"/>cils (and
+<hi>ſuch alone,</hi> and <hi>to all ſuch</hi>) as are admitted by the
+<hi>True Church;</hi> and to ſuch Do<g ref="char:EOLhyphen"/>ctors only, as are Members of <hi>the
+True Religion.</hi> And how can we know, what Scriptures, or 
+<pb n="67" facs="tcp:29434:49"/>what Councils, are <hi>admitted</hi> by the True Church; or
+what Doctors are <hi>Members</hi> of the True Religion; unleſs we know, which
+is <hi>the True Church,</hi> and which is <hi>the True Religion?</hi> For what
+Saint <hi>Auguſtin</hi> ſaid of the Church in order to the Scripture,
+<hi>Ego vero Evangelio non crederem, niſi me Eccleſiae Catholicae
+commoveret authori<g ref="char:EOLhyphen"/>tas;</hi> [Aug. lib. Epiſt. cont. Manich. cap. 5.] may be
+ex<g ref="char:EOLhyphen"/>tended to Councils, and Do<g ref="char:EOLhyphen"/>ctors. For the <hi>preſent True</hi> Church
+decides, not only what ancient Councils, and Doctors have been Orthodox, but
+alſo what modern Councils, and Doctors are ſo. We force therefore our
+Adverſary to the inveſtigation of the True Re<g ref="char:EOLhyphen"/>ligion; <pb n="68" facs="tcp:29434:50"/>and then we may ſet upon him, according to the Method
+above-mentioned.</p>
+            <p>Moreover, when one appeals to <hi>Scriptures, Councils,</hi> or
+<hi>Fa<g ref="char:EOLhyphen"/>thers,</hi> ſure he appeals to them as <hi>rightly underſtood.</hi>
+For who will be tried by Scriptures, Councils, or Fathers, under<g ref="char:EOLhyphen"/>ſtood in
+<hi>a wrong ſenſe?</hi> Now if there ariſe a conteſt, as com<g ref="char:EOLhyphen"/>monly
+there does, between us and our Adverſaries, concern<g ref="char:EOLhyphen"/>ing <hi>the right
+meaning</hi> of the places, alledged out of <hi>Scri<g ref="char:EOLhyphen"/>pture,</hi> (the ſame is
+of places alledged out of <hi>Councils,</hi> or <hi>Fathers</hi>) certainly the
+<hi>Judge</hi> to decide this Debate, muſt appertain to the <hi>True
+Religion.</hi> For, who will make his appli<g ref="char:EOLhyphen"/>cation to an <hi>Atheiſt,</hi> to
+decide <pb n="69" facs="tcp:29434:50"/>matters of Religion? or what <hi>Chriſtian</hi>
+will go to a <hi>Turk,</hi> or a <hi>Jew,</hi> to determine mat<g ref="char:EOLhyphen"/>ters belonging
+to Chriſtianity?</p>
+            <p>In like manner, when one appeals to <hi>the private Spirit</hi> in
+matters of Religion, ſure he will not appeal to the <hi>private Spirit</hi>
+of an <hi>Atheiſt;</hi> or, if he be a Chriſtian, to the <hi>private
+Spirit</hi> of a <hi>Jew,</hi> a <hi>Turk,</hi> or an <hi>Heretick.</hi> His
+intention there<g ref="char:EOLhyphen"/>fore is to appeal to the <hi>private Spirit</hi> of ſuch as
+are of the <hi>True Religion:</hi> and we cannot be aſcertain<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d, who, or what ap<g ref="char:EOLhyphen"/>pertains to the True
+Religion, unleſs we be informed <hi>which the True Religion is.</hi>
+            </p>
+            <p>And thus we force our Ad<g ref="char:EOLhyphen"/>verſary again, to make enquiry into
+<hi>the True Religion;</hi> and <pb n="70" facs="tcp:29434:51"/>then we may attack him
+after our own way: asking him, whether he grants the <hi>Roman</hi> Catholick
+Religion to be <hi>a true</hi> Religion? if he grants it, we may ſhew,
+according to what we hinted above, That the <hi>Roman</hi> Catholick Religion
+is <hi>the true</hi> Religion; and if ſo, that to her appertains the
+judg<g ref="char:EOLhyphen"/>ment of Controverſie, and of the true, and genuine ſenſe of
+<hi>Scriptures, Councils,</hi> and <hi>Fa<g ref="char:EOLhyphen"/>thers.</hi> Whence I conclude, that
+till we have found out, <hi>which is the true Religion,</hi> ſcarce any other
+Thing under Debate, appertaining to Reli<g ref="char:EOLhyphen"/>gion, can be proved. And when that is
+found out, all o<g ref="char:EOLhyphen"/>ther Things appertaining to Re<g ref="char:EOLhyphen"/>ligion are proved without
+dif<g ref="char:EOLhyphen"/>ficulty.</p>
+            <p>
+               <pb n="71" facs="tcp:29434:51"/>And here I cannot but reflect upon the
+unreaſonableneſs of our Adverſaries, who will tie us to <hi>certain</hi>
+Topicks, without giving us leave to make uſe of <hi>others,</hi> of no leſs
+force. Some will have us ſhew them in the <hi>Firſt Four General
+Councils,</hi> or in the <hi>Fathers of the Firſt</hi> 600 <hi>years</hi>
+after Chriſt, in <hi>expreſs</hi> terms, <hi>all the Points,</hi> which we
+defend in oppoſition to the Pro<g ref="char:EOLhyphen"/>teſtant Church; and unleſs we can do it,
+they proclaim the vi<g ref="char:EOLhyphen"/>ctory againſt us. And why might not we, in the ſame
+man<g ref="char:EOLhyphen"/>ner, require of them to ſhew us in the Apoſtles Creed all their
+<hi>Thirty Nine</hi> Articles? or in the Firſt Chapter of St.
+<hi>Matthew's</hi> Goſpel, all the Myſteries of Chriſtian Religion? we
+admit, <pb n="72" facs="tcp:29434:52"/>beſide the <hi>Four Firſt</hi> General Councils,
+ſeveral others of e<g ref="char:EOLhyphen"/>qual Authority: and beſide, the Fathers of the
+<hi>Firſt</hi> 600 <hi>years,</hi> other Fathers, and Doctors.</p>
+            <p>Others will have All Contro<g ref="char:EOLhyphen"/>verſies decided by <hi>expreſs
+Scri<g ref="char:EOLhyphen"/>pture,</hi> and by <hi>their Scriptures</hi> only, and with their
+<hi>verſions,</hi> and interpreted according to <hi>their ſenſe,</hi>
+without hearkening either to <hi>Councils,</hi> or <hi>Fathers,</hi> or any
+<hi>other Topicks,</hi> though very ſolid and effectual: where<g ref="char:EOLhyphen"/>as any good,
+and ſolid argu<g ref="char:EOLhyphen"/>ment, let it be drawn from any <hi>Topick</hi> whatſoever,
+is ſufficient to evince a Truth: and no Bo<g ref="char:EOLhyphen"/>dy can, with reaſon, require
+more of his Adverſary, than that he ſhould prove ſolidly the
+<hi>Theſis,</hi> which he undertakes to defend. <pb n="73" facs="tcp:29434:52"/>Neither
+is it neceſſary, That all <hi>Truths</hi> ſhould be evidenced out of
+<hi>every place.</hi>
+            </p>
+            <p>Wherefore it is not <hi>Prudence</hi> to permit; that our
+Adverſary ſhould preſcribe us <hi>the manner,</hi> wherein we are to
+attack him: it is better to force him to fight <hi>our way.</hi> For though,
+perhaps, the way he propoſes unto us, may be <hi>apt enough;</hi> yet another
+may be more <hi>advantageous:</hi> and an adverſary may, with more eaſe,
+find, in a way wherein he is verſed, <hi>Cavils,</hi> wherewith to elude our
+<hi>Arguments,</hi> though never ſo good; then if he be brought into a road,
+where<g ref="char:EOLhyphen"/>in he is not acquainted.</p>
+            <p>Yet becauſe they may have no occaſion to quarrel with us, as
+if we did refuſe to be tried <pb n="74" facs="tcp:29434:53"/>by <hi>Scripture,</hi> we
+profeſs, that we are not unwilling to be tried by it. But then it muſt be
+with <hi>Theſe Conditions;</hi> which no ra<g ref="char:EOLhyphen"/>tional man can look upon as
+abſurd, <hi>viz.</hi> By <hi>True Scripture,</hi> By the <hi>whole Canon of
+Scri<g ref="char:EOLhyphen"/>pture,</hi> By the <hi>True Verſions</hi> there<g ref="char:EOLhyphen"/>of, and by Scripture
+<hi>rightly underſtood.</hi> The ſame may be ſaid of <hi>Councils,</hi>
+and <hi>Fathers.</hi>
+            </p>
+            <p>We have made frequent men<g ref="char:EOLhyphen"/>tion in this Diſcourſe, of
+<hi>Fun<g ref="char:EOLhyphen"/>damental</hi> points of the <hi>True Re<g ref="char:EOLhyphen"/>ligion,</hi> yet we do not
+require of our Adverſaries (that which they are loth to do) to exhibit unto
+us a <hi>Catalogue</hi> of all ſuch Points. What we require of them is only,
+That they grant this point to be <hi>Fundamental,</hi> and
+<hi>Eſſential,</hi> to a True Reli<g ref="char:EOLhyphen"/>gion, <pb n="75" facs="tcp:29434:53"/>
+               <hi>viz. God
+is not the Author of any error, or corruption, what<g ref="char:EOLhyphen"/>ſoever,</hi> or,
+<hi>whatſoever God re<g ref="char:EOLhyphen"/>veals, is true.</hi> And ſure, no Body, who grants
+any true Re<g ref="char:EOLhyphen"/>ligion, yea any True Deity, can refuſe to grant This poſition.
+For it is certain, that there are ſome Points <hi>determinately
+Fun<g ref="char:EOLhyphen"/>damental,</hi> and <hi>Eſſential</hi> to a true Religion: and if there
+be and ſuch, why not this? The very Foundation of <hi>Divine Faith</hi>
+conſiſts in this Principle, <hi>That God does neither deceive, nor is
+deceived, in any Thing whatſoever:</hi> and conſequently, that he is not
+the Author of any <hi>error,</hi> great or little, and that what ever he
+reveals is true. Otherwiſe one might ſay, <hi>Though God has revealed
+ſuch a <pb n="76" facs="tcp:29434:54"/>Thing, perhaps it is not ſo, as he has revealed
+it:</hi> which doutbleſs would be a manifeſt Blaſphemy. Yea, the
+reaſon, why we ought to believe God, <hi>before man,</hi> is, becauſe men
+do many times de<g ref="char:EOLhyphen"/>ceive, and are many times more deceived. But God does never
+deceive, nor is deceived.</p>
+            <p>We have mentioned alſo ſe<g ref="char:EOLhyphen"/>veral times, <hi>Natural</hi> and
+<hi>Revea<g ref="char:EOLhyphen"/>led Religion.</hi> By <hi>Natural</hi> Religi<g ref="char:EOLhyphen"/>on we underſtand
+Thoſe neceſ<g ref="char:EOLhyphen"/>ſary common Principles of <hi>Mo<g ref="char:EOLhyphen"/>rality,</hi> relating to our
+duty to<g ref="char:EOLhyphen"/>wards God, our ſelves, and our Neighbour, which <hi>Nature</hi> has
+printed in <hi>the hearts</hi> of men; and are uſually ſtiled <hi>The Law
+of Nature.</hi> Such are theſe Prin<g ref="char:EOLhyphen"/>ciples. <hi>Do as you would be done by.
+Worſhip God. Honour your <pb n="77" facs="tcp:29434:54"/>Parents. Obey your Superiours.
+Fly Evil. Do Good,</hi> and ſuch like. <hi>Natural</hi> Religion alſo does
+inform us concerning ſeve<g ref="char:EOLhyphen"/>ral <hi>Attributes</hi> of God, as that he is
+<hi>Supreme Governour of the <g ref="char:V">Ʋ</g>niverſe,</hi> That he is <hi>not idle</hi> in
+the world, That he complies with his <hi>Character,</hi> and conſe<g ref="char:EOLhyphen"/>quently
+that he <hi>rules</hi> and <hi>go<g ref="char:EOLhyphen"/>verns</hi> the world; That he is
+<hi>juſt</hi> and <hi>merciful;</hi> and conſe<g ref="char:EOLhyphen"/>quently, that he will
+<hi>reward</hi> thoſe, who do well, and <hi>puniſh</hi> ſuch as do ill.
+By a <hi>revealed</hi> Religion is ſignified a Religion, that contains either
+ſome <hi>high Myſteries,</hi> ſeated above the, Sphere of Humane
+Reaſon, or ſome <hi>particular manner</hi> of wor<g ref="char:EOLhyphen"/>ſhipping God, or ſome
+<hi>particu<g ref="char:EOLhyphen"/>lar matters,</hi> wherein we are to <pb n="78" facs="tcp:29434:55"/>obey him;
+<hi>freely revealed</hi> unto us by God.</p>
+            <p>Now God may manifeſt his will unto men divers ways, ei<g ref="char:EOLhyphen"/>ther by
+<hi>Writings, Words,</hi> or <hi>other Signs,</hi> by <hi>poſitive
+Injun<g ref="char:EOLhyphen"/>ctions,</hi> or <hi>by Silence</hi> (as men alſo may manifeſt their
+will) by <hi>himſelf,</hi> or <hi>by others</hi> Com<g ref="char:EOLhyphen"/>miſſioned by him,
+whether <hi>An<g ref="char:EOLhyphen"/>gels,</hi> or <hi>Men:</hi> or he may ma<g ref="char:EOLhyphen"/>nifeſt his will
+<hi>partly by Writing,</hi> and <hi>partly in Words;</hi> or <hi>by
+Writings,</hi> or <hi>Words</hi> ſo <hi>clear,</hi> that any one may
+underſtand them; or ſo <hi>obſcure,</hi> that to underſtand them there
+is need of an <hi>Expoſitor.</hi> He may alſo determine by himſelf the
+<hi>par<g ref="char:EOLhyphen"/>ticular manner,</hi> wherein he will be worſhipped, and the
+<hi>parti<g ref="char:EOLhyphen"/>cular matters,</hi> wherein he will <pb n="79" facs="tcp:29434:55"/>be obeyed; or
+he may <hi>aſſign others</hi> to determine them: and though it be Free for
+God to chuſe <hi>this,</hi> or <hi>that</hi> way of go<g ref="char:EOLhyphen"/>verning men, yet
+ſuppoſing there are men, he muſt needs lay hold of <hi>ſome way,</hi>
+or <hi>other,</hi> to manifeſt unto them his plea<g ref="char:EOLhyphen"/>ſure: otherwiſe he
+would not comply with this <hi>Character</hi> of being <hi>Governour of the
+world:</hi> and conſequently there muſt be ſome Religion <hi>freely
+revealed</hi> by God.</p>
+            <p>Beſides, out of that common notion of God, aſſented unto by
+All <hi>Ens Optimum Maxi<g ref="char:EOLhyphen"/>mum,</hi> the Beſt of all Things, (though we may
+prove the Exiſtency of a Deity by other Notions, agreed upon by the parties)
+we may eaſily deduce <pb n="80" facs="tcp:29434:56"/>ſeveral <hi>Attributes</hi> of
+God. For God is the Beſt of all Things <hi>in all kind of Perfections:</hi>
+Be<g ref="char:EOLhyphen"/>cauſe, as there is one better than another in <hi>Wiſdom, Goodneſs,
+Power,</hi> and <hi>other Perfections;</hi> ſo there muſt be ſomething
+the Beſt of all, <hi>in All kind of Per<g ref="char:EOLhyphen"/>fections;</hi> which we term God.</p>
+            <p>If God be the Beſt of all in <hi>Wiſdom, Power,
+Goodneſs,</hi> and <hi>in all kind</hi> of perfections, it fol<g ref="char:EOLhyphen"/>lows that he
+is <hi>Free</hi> from <hi>all kind</hi> of <hi>imperfections.</hi> For an
+imperfection, in any kind what<g ref="char:EOLhyphen"/>ſoever, conſiſts in <hi>a defi<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iency</hi> from what is beſt in that
+kind: and therefore imperfection is commonly defined <hi>Defectus a
+ſummo.</hi> Since therefore it is impoſſible, That what is <hi>the Beſt
+in all kind</hi> of perfections, <pb n="81" facs="tcp:29434:56"/>ſhould be
+<hi>deficient</hi> from being <hi>the Beſt in any kind,</hi> we con<g ref="char:EOLhyphen"/>clude,
+that God is free from all imperfections whatſoever: and if ſo, then he is
+<hi>infinitely perfect</hi> in all kind of perfecti<g ref="char:EOLhyphen"/>ons. For all limitation in
+per<g ref="char:EOLhyphen"/>fection muſt proceed from <hi>ſome imperfection</hi> in that kind. If
+therefore God be free from all imperfection <hi>in what kind ſo<g ref="char:EOLhyphen"/>ever,</hi> it
+neceſſarily follows, that he is <hi>infinitely,</hi> and <hi>without
+li<g ref="char:EOLhyphen"/>mitation</hi> perfect <hi>in all kind</hi> of perfections, and
+conſequently that he is not conſtituted of Things imperfect: and hence may
+be inferred the ſimplicity of the Divine Eſſence.</p>
+            <p>Moreover, ſince one thing is better than another, becauſe it
+<hi>comes nearer</hi> that, which is <pb n="82" facs="tcp:29434:57"/>the Beſt; and
+ſince 'tis impoſſi<g ref="char:EOLhyphen"/>ble, that any thing ſhould <hi>come nearer</hi> that
+which is the Beſt, than what <hi>really,</hi> and <hi>by iden<g ref="char:EOLhyphen"/>tity is the
+Beſt;</hi> we conclude, that what is the Beſt, <hi>cannot increaſe;</hi>
+and what <hi>cannot in<g ref="char:EOLhyphen"/>creaſe, is infinite.</hi> For, what<g ref="char:EOLhyphen"/>ſoever is
+<hi>finite,</hi> and <hi>limitated,</hi> may increaſe.</p>
+            <p>Notwithſtanding it is not ne<g ref="char:EOLhyphen"/>ceſſary, before we have found
+out the True Religion, that we ſhould know any <hi>other Attri<g ref="char:EOLhyphen"/>butes</hi> of
+God, or any <hi>other pro<g ref="char:EOLhyphen"/>perties</hi> of the True Religion, beſides Thoſe
+only, the know<g ref="char:EOLhyphen"/>ledge whereof is preciſely re<g ref="char:EOLhyphen"/>quiſite for the Diſcovery of
+the True Religion, and <hi>are admit<g ref="char:EOLhyphen"/>ted</hi> by ſuch as we deal with: 
+<pb n="83" facs="tcp:29434:57"/>the reſt the True Religion will teach us.</p>
+            <p>If one deſire to know, why ſhould one Thing be ſaid to be
+better than another, becauſe it <hi>comes nearer what is the beſt,</hi>
+rather than becauſe it <hi>goes fur<g ref="char:EOLhyphen"/>ther from what is the worſt,</hi> the
+reaſon is, becauſe perfection conſiſts in <hi>Poſitives;</hi>
+imperfe<g ref="char:EOLhyphen"/>ction in <hi>Negatives:</hi> and accord<g ref="char:EOLhyphen"/>ing to the <hi>Natural
+Order</hi> of Things, <hi>Negatives</hi> are to be ex<g ref="char:EOLhyphen"/>plicated by <hi>their
+Poſitives,</hi> and not on the contrary: as <hi>Dark<g ref="char:EOLhyphen"/>neſs</hi> is expounded
+by <hi>Light,</hi> and not <hi>Light</hi> by <hi>Darkneſs.</hi> So that
+<hi>the worſt</hi> is rightly expoun<g ref="char:EOLhyphen"/>ded by the <hi>greateſt
+diſtance</hi> from the Beſt: whereas <hi>the Beſt</hi> is explained by
+the <hi>Greateſt con<g ref="char:EOLhyphen"/>junction</hi> with that, which con<g ref="char:EOLhyphen"/>tains 
+<pb n="84" facs="tcp:29434:58"/>all perfection. Yea, if there <hi>muſt</hi> be
+ſomething <hi>the worſt</hi> of all Things, why <hi>muſt</hi> there
+<hi>not he</hi> ſomething <hi>the Beſt</hi> of All Things? and
+conſequent<g ref="char:EOLhyphen"/>ly a True God? which is what we pretended to prove in the Firſt
+point.</p>
+            <p>And becauſe we deſire to deal fairly, and freely with our
+Ad<g ref="char:EOLhyphen"/>verſaries; when we Diſpute with ſuch as profeſs themſelves to be
+Chriſtians, we give them leave to aſſign any <hi>ſolid induce<g ref="char:EOLhyphen"/>ment</hi>
+whatſoever, <hi>why they are Chriſtians,</hi> with the Advertiſe<g ref="char:EOLhyphen"/>ment
+inſinuated, Point the fifth, I do not ask them, <hi>what it is to be
+Chriſtians,</hi> but <hi>why they are ſo:</hi> and ſure, no Chriſtian
+will be aſhamed to tell any one, what <hi>inducement</hi> he has to be a 
+<pb n="85" facs="tcp:29434:58"/>Chriſtian. And to propoſe this queſtion to them, may
+contri<g ref="char:EOLhyphen"/>bute much to ground them well in Chriſtian Religion. For there are
+Chriſtians, who have ſcarce ever reflected, not only <hi>what it is to be
+Chriſtians,</hi> but neither <hi>why they are ſo.</hi>
+            </p>
+            <p>Some will tell us, that they are Chriſtians, becauſe they were
+<hi>bred,</hi> and <hi>born amongſt Chriſtians,</hi> or becauſe they live
+<hi>under a Chriſtian Prince.</hi> But theſe Motives are frivolous. For
+though ſuch <hi>circumſtances</hi> have been <hi>the occaſion,</hi> why
+many are Chriſtians, yet they cannot be a <hi>prudent Motive,</hi> why
+<hi>they are ſo.</hi> For a <hi>Turk,</hi> who is born a <hi>Turk,</hi> and
+lives under the <hi>Tur<g ref="char:EOLhyphen"/>kiſh Government,</hi> has the ſame reaſon to be a
+<hi>Turk.</hi>
+            </p>
+            <p>
+               <pb n="86" facs="tcp:29434:59"/>Others, who have never re<g ref="char:EOLhyphen"/>flected, why they
+are Chriſti<g ref="char:EOLhyphen"/>ſtians, ask me, what induce<g ref="char:EOLhyphen"/>ments I have to be a Chriſtian:
+and though this be not to an<g ref="char:EOLhyphen"/>ſwer the queſtion themſelves, but to have me
+anſwer for them; yet to ſatisfie them, I may pro<g ref="char:EOLhyphen"/>poſe the forementioned
+<hi>miracu<g ref="char:EOLhyphen"/>lous propagation,</hi> or ſome other <hi>ſolid Reaſon;</hi>
+which being once approved of by them, may ea<g ref="char:EOLhyphen"/>ſily be applied to Catholck
+Re<g ref="char:EOLhyphen"/>ligion.</p>
+            <p>Others will ſay, That they are Chriſtians, (and this is the
+common anſwer of Proteſtants) becauſe <hi>ſuch Books,</hi> which they
+believe to be <hi>the Word of God;</hi> interpreted in <hi>ſuch a
+ſenſe,</hi> as they believe they are to be in<g ref="char:EOLhyphen"/>terpreted in, inform them of 
+<pb n="87" facs="tcp:29434:59"/>
+               <hi>the Divinity</hi> of our Saviour, and of other
+<hi>Myſteries</hi> of <hi>Chriſtia<g ref="char:EOLhyphen"/>nity.</hi> But a <hi>Jew</hi> has the
+ſame reaſon to be a <hi>Jew;</hi> becauſe <hi>ſuch Books,</hi> which he
+believes to be the <hi>Word of God,</hi> inter<g ref="char:EOLhyphen"/>preted <hi>in ſuch a ſ<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nſe,</hi> as he be<g ref="char:EOLhyphen"/>lieves they are to
+be interpre<g ref="char:EOLhyphen"/>ted in, tell him, that <hi>Christ is not God,</hi> nor <hi>the
+Meſſias.</hi>
+            </p>
+            <p>Beſides, it cannot be <hi>a good rule</hi> to arrive to the
+right ſenſe of Scripture, to interpret it <hi>according to each ones
+private reaſon.</hi> For if it were a good rule, who ever ſhould adjuſt
+himſelf thereunto, would in<g ref="char:EOLhyphen"/>terpret Scripture <hi>in a right ſenſe:</hi>
+which is manifeſtly falſe. For Two, who interpret Scripture in
+<hi>contradictory ſenſes,</hi> may Both follow <hi>their own private 
+<pb n="88" facs="tcp:29434:60"/>reaſon,</hi> as is evident: and yet it is certain, that
+either the one, or the other of theſe Two would not interpret Scripture
+<hi>in a right ſenſe.</hi> For it is im<g ref="char:EOLhyphen"/>poſſible, that <hi>Two
+Contradictory ſenſes</hi> ſhould Both be right, and <hi>intended</hi> by
+the Holy Ghoſt; who cannot contradict himſelf: and that only is <hi>the
+true ſenſe</hi> of Scripture, which was <hi>inten<g ref="char:EOLhyphen"/>ded by the Holy
+Ghoſt.</hi> We challenge therefore our Adver<g ref="char:EOLhyphen"/>ſaries to produce any ſolid
+in<g ref="char:EOLhyphen"/>ducements for one to be a Chri<g ref="char:EOLhyphen"/>ſtian, which does not prove that he
+ſhould be a Catholick: So that with Truth we may ſay, <hi>No Catholique, No
+Chriſtian.</hi>
+            </p>
+            <p>Wherefore my main Task in this work, is, to ſhew, that what
+proofs are alledged for <hi>Chriſtian <pb n="89" facs="tcp:29434:60"/>Religion,</hi> may
+be alledged for <hi>Catholick Religion;</hi> and by con<g ref="char:EOLhyphen"/>ſequence that we have
+the <hi>ſame inducements</hi> to be Catholicks, as to be Chriſtians; and
+that what <hi>Objections</hi> are made a<g ref="char:EOLhyphen"/>gainſt Catholick Religion, <hi>are,
+or may be, made</hi> againſt Chri<g ref="char:EOLhyphen"/>ſtian Religion: and accordingly that we
+have the <hi>ſame Motives</hi> to be No Chriſtians, as to be No Catholicks.
+And it would be abſurd to ſay, That we ought not to urge Sectaries <hi>upon
+this Topick,</hi> for fear, leſt they ſhould deny Chriſtian Religion to
+be true, rather than grant the Truth of Catholick Religion. For in the like
+manner they might ſay, That we ought not to urge Sectaries <hi>out of
+Scri<g ref="char:EOLhyphen"/>pture</hi> (or any other Principle <pb n="88" facs="tcp:29434:61"/>
+               <gap reason="duplicate" resp="#OXF" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap> 
+               <pb n="89" facs="tcp:29434:61"/>
+               <gap reason="duplicate" resp="#OXF" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap> 
+               <pb n="90" facs="tcp:29434:62"/>granted by
+them) for ſear, leſt <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey
+ſhould deny Scripture, ra<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>her
+than aſſent to the Tenets of our Church. By <hi>Chriſtian Religion,</hi>
+I underſtand the <hi>Re<g ref="char:EOLhyphen"/>ligion preached by Chriſt and his Apoſtles:</hi>
+which, among other Things, taught as an Article of Faith, that it would
+continue to be the true Religion <hi>till the worlds end:</hi> and
+conſequently, if it was ever true, it is ſtill true: and ſince,
+certainly, it cannot be found but among Chriſti<g ref="char:EOLhyphen"/>ans, I conclude, that only
+among Chriſtians, the true Religion is to be found.</p>
+            <p>Neither can I omit here to take notice of a certain kind of men,
+who term themſelves <hi>Vir<g ref="char:EOLhyphen"/>tuoſi,</hi> or <hi>the Wits of the Nation,</hi>
+that deny all <hi>matters of Fact,</hi> 
+               <pb n="91" facs="tcp:29434:62"/>unleſs they
+perceive them by their own ſenſes; and admit no<g ref="char:EOLhyphen"/>thing elſe, but what
+<hi>Natural Reaſon</hi> does demonſtrate unto them. So that they deny both
+<hi>Divine</hi> and <hi>Humane Faith,</hi> all the <hi>Myſteries</hi> of
+<hi>Chriſtianity,</hi> and all <hi>revealed</hi> Religions. But the
+Abſurdity of this opinion is manifeſt. For, as concerning what they
+aſſert in reference to <hi>matters of Fact,</hi> we may tell them, that,
+according to their Principles, we cannot be<g ref="char:EOLhyphen"/>lieve, <hi>That they think what
+they ſay,</hi> neither can they be<g ref="char:EOLhyphen"/>lieve, <hi>That we think what we
+ſay.</hi> For their Thoughts to us, and our Thoughts to them, are <hi>matters
+of Fact,</hi> ſeated be<g ref="char:EOLhyphen"/>yond the pale of the Senſes; <pb n="92" facs="tcp:29434:63"/>and conſequently, if their Prin<g ref="char:EOLhyphen"/>ciples be good, no Body ought <hi>to
+treat</hi> with them, nor they with any Body: For no Body ought, in prudence,
+to deal with him, whom he can <hi>never believe,</hi> that he thinks what he
+ſays. Whence all <hi>Humane Converſation</hi> would be caſt off; which is
+againſt the very nature of man. For man is defined, by Philoſophers,
+<hi>Animal Soci<g ref="char:EOLhyphen"/>abile.</hi> Yea, the <hi>ſignification</hi> of Words,
+Characters, and other arbitrary Signs, where<g ref="char:EOLhyphen"/>with we <hi>expound</hi> to others
+our Thoughts, do depend upon <hi>Humane Faith,</hi> and upon the perſwaſion
+we have, that the <hi>Firſt Inventers,</hi> and <hi>Maſters of
+Languages,</hi> intended, that by <pb n="93" facs="tcp:29434:63"/>ſuch words ſuch
+Things ſhould be ſignified; and ſo, by deny<g ref="char:EOLhyphen"/>ing all Humane Faith, they
+ren<g ref="char:EOLhyphen"/>der void <hi>the Inſtruments of Hu<g ref="char:EOLhyphen"/>mane Converſation.</hi> Moreover, no
+Servant ought <hi>to obey</hi> their commands, no Body ought <hi>to
+condeſcend</hi> to their requeſts. For, no Body, according to <hi>their
+Maxims,</hi> can believe that they <hi>intend,</hi> what they ſeem to
+<hi>command;</hi> nor that they <hi>deſire</hi> what they <hi>ask,</hi> the
+<hi>actu<g ref="char:EOLhyphen"/>al intentions,</hi> and <hi>deſires</hi> of men, being <hi>matters
+of Fact,</hi> which do not fall within <hi>the verge</hi> of our Senſes. And
+ſure, no Body ought in reaſon, to obey the commands of a Superiour,
+<hi>unleſs he believe,</hi> that he <hi>ſeri<g ref="char:EOLhyphen"/>ouſly intends</hi> what he
+com<g ref="char:EOLhyphen"/>mands; <pb n="94" facs="tcp:29434:64"/>nor <hi>condeſcend</hi> to the requeſt of a
+Friend, unleſs <hi>he believes,</hi> that he <hi>deſires</hi> what he
+asks.</p>
+            <p>Again, ſuch men as Theſe, if they ſtand to their Tenets,
+cannot <hi>believe,</hi> that they have <hi>any right,</hi> or <hi>title,</hi>
+to the Eſtates, or Prerogatives, which they poſſeſs. For <hi>the
+right</hi> to ſuch Eſtates, and Prerogatives, does (as we ſuppoſe)
+conſiſt, in that <hi>they deſcend</hi> from ſuch Ance<g ref="char:EOLhyphen"/>ſtors, who
+<hi>entailed upon their Heirs,</hi> ſuch Lands, or Titles: and according to
+<hi>their Maxims</hi> they cannot believe that they <hi>deſcend</hi> from
+ſuch Anceſtors. For they never perceived it with <hi>their Senſes.</hi>
+Why there<g ref="char:EOLhyphen"/>fore may not one take away <pb n="95" facs="tcp:29434:64"/>their Eſtates,
+ſince they can plead no right to them? Final<g ref="char:EOLhyphen"/>ly, their actions do
+manifeſtly contradict This their aſſertion. For they ſcarce do, or
+ſay any thing, great or little, wherein they do not govern themſelves by
+the <hi>humane Faith</hi> of ſome thing or other; as they Them<g ref="char:EOLhyphen"/>ſelves may
+eaſily be convinced of, if they will be pleaſed to reflect upon their own
+acti<g ref="char:EOLhyphen"/>ons.</p>
+            <p>Now concerning what they affirm of <hi>Natural Reaſon,</hi> to
+which they will needs ſeem to be ſo much devoted; there can be nothing more
+<hi>contrary to Natural Reaſon,</hi> than to per<g ref="char:EOLhyphen"/>ſwade our ſelves, that
+we <hi>ought to believe nothing above <pb n="96" facs="tcp:29434:65"/>it.</hi> For though
+<hi>Natural Rea<g ref="char:EOLhyphen"/>ſon</hi> does not demonſtrate unto us <hi>Thoſe
+Myſteries,</hi> which are above its reach, yet it does demonſtrate <hi>that
+there are ſuch Myſteries.</hi> For, what is more clear to our <hi>Natural
+Reaſon,</hi> than that <hi>God does know things above our Natural
+Reaſon?</hi> Otherwiſe he would not be <hi>infinitely Wiſe;</hi> as he
+would not be <hi>infinitely Powerful,</hi> if he could not do Things <hi>above
+our Natural Forces.</hi> If he knows ſuch Myſteries, Natural Reaſon
+Demonſtrates, either that he may <hi>reveal</hi> them unto us
+<hi>immediately</hi> by himſelf, or that he may <hi>Commiſſion</hi> men
+to that intent; otherwiſe he would not be <hi>infinitely Power<g ref="char:EOLhyphen"/>ful:</hi> 
+               <pb n="97" facs="tcp:29434:65"/>and that if he does <hi>re<g ref="char:EOLhyphen"/>veal</hi> them unto us, either
+by <hi>himſelf,</hi> or <hi>by men,</hi> whom he has
+<hi>commiſſioned</hi> to that pur<g ref="char:EOLhyphen"/>poſe; we ought to <hi>believe
+them;</hi> otherwiſe he would not be of <hi>infinite Authority.</hi>
+            </p>
+            <p>Whence I conclude, out of the <hi>Principles of Nature,</hi> that
+we may be <hi>bound to believe</hi> My<g ref="char:EOLhyphen"/>ſteries above the reach of Na<g ref="char:EOLhyphen"/>tural
+Reaſon. For if God does <hi>reveal</hi> them, we are bound to
+<hi>believe</hi> them: But he may <hi>re<g ref="char:EOLhyphen"/>veal</hi> them; therefore we may be
+<hi>bound to believe</hi> them. Hence it follows, that his conſequence is
+Null, (though ſo common in the mouths of the <hi>Virtuoſi</hi>) viz.
+<hi>Such a Myſtery is above the reach of Natural Reaſon; Therefore 
+<pb n="98" facs="tcp:29434:66"/>we are not not bound</hi> (or <hi>we cannot be bound</hi>)
+<hi>to believe it.</hi> Again, if God can <hi>commiſſion</hi> men to preach
+unto us <hi>Myſteries, above the reach of our Natural Reaſon,</hi> he may
+attend them with ſuch <hi>Marks</hi> and <hi>Signs,</hi> as may evidence unto
+ſuch as are concerned therein, that they <hi>are commiſſioned by God unto
+them.</hi> For, of what value is a <hi>Commiſſion,</hi> unleſs the
+<hi>Au<g ref="char:EOLhyphen"/>thenticateneſs</hi> thereof may be made evident? And here I leave
+theſe Authors to think with themſelves, what <hi>Signs,</hi> or
+<hi>Marks</hi> they would <hi>prudently</hi> re<g ref="char:EOLhyphen"/>quire, <hi>to be
+perſwaded,</hi> that ſuch men have been <hi>commiſſi<g ref="char:EOLhyphen"/>oned</hi> by God
+to preach a Re<g ref="char:EOLhyphen"/>ligion; and we engage to evince, <pb n="99" facs="tcp:29434:66"/>That
+<hi>ſuch Marks</hi> did concur in <hi>Chriſt,</hi> and his
+<hi>Apoſtles,</hi> and ſe<g ref="char:EOLhyphen"/>veral other <hi>Preachers</hi> of Chri<g ref="char:EOLhyphen"/>ſtian,
+and Catholick Religion; with this Advertiſement, that they cannot rationally
+require a <hi>greater evidence</hi> of Gods commands, to think themſelves
+bound to obey them, than of the Kings Commands, in order to ſubmit unto them,
+even in matters, wherein their Lives, and Fortunes are concerned: For <hi>the
+greater Obligation</hi> of obeying God <hi>before men,</hi> does not
+neceſſarily conſiſt in the <hi>greater evidence</hi> of his Com<g ref="char:EOLhyphen"/>mands,
+but in the <hi>greater Dig<g ref="char:EOLhyphen"/>nity</hi> and <hi>Authority</hi> of his
+Per<g ref="char:EOLhyphen"/>ſon.</p>
+            <p>
+               <pb n="100" facs="tcp:29434:67"/>Perhaps, ſome may object, That if we can
+find out the <hi>True Revealed</hi> Religion by the <hi>light of Nature,</hi>
+without being guided therein, by the <hi>True Religion,</hi> or
+<hi>Church,</hi> why may we not find out <hi>All the Articles</hi> of the True
+Religion, and Church, without being guided thereby, and without the pre<g ref="char:EOLhyphen"/>vious
+knowledge thereof, by <hi>the light,</hi> only, of <hi>Natural
+Rea<g ref="char:EOLhyphen"/>ſon?</hi>
+            </p>
+            <p>To this I anſwer, that with as much reaſon I might ask our
+Adverſaries, why we may not <hi>build the Superſtructures</hi> with<g ref="char:EOLhyphen"/>out
+laying <hi>firſt the Foundation,</hi> as we can <hi>lay the Foundation,</hi>
+without laying <hi>firſt another</hi> Foundation? or, as we can <hi>go 
+<pb n="101" facs="tcp:29434:67"/>by our ſelves</hi> to a Maſter to be taught by him,
+why can we not <hi>learn by our ſelves,</hi> what ever ſuch a Maſter can
+teach us? or, as by o<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r ſelves we
+make <hi>appli<g ref="char:EOLhyphen"/>cation to the Judges,</hi> conſtituted by the King, to know
+<hi>the True Senſe</hi> of the Law, in intricate places; why may we not
+un<g ref="char:EOLhyphen"/>derſtand <hi>the True ſenſe</hi> of thoſe places, without <hi>making
+any ſuch application?</hi> Certainly, there is no Body, who does not plainly
+ſee, that ſuch queſtions are fri<g ref="char:EOLhyphen"/>volous.</p>
+            <p>And ſuch, doubtleſs, is the forementioned queſtion our
+Ad<g ref="char:EOLhyphen"/>verſary propoſes unto us. For the True Church is <hi>the Pillar, and
+Foundation of Faith,</hi> the. <hi>Miſtris</hi> of what we are to
+<hi>be<g ref="char:EOLhyphen"/>lieve,</hi> 
+               <pb n="102" facs="tcp:29434:68"/>and of what we are <hi>to do,</hi> in
+order to ſalvation; and <hi>the Judge</hi> in Controverſies of of
+<hi>Religion.</hi> Yea, we might ask our Adverſaries, why they might not find
+out all <hi>Myſteries of Faith,</hi> without the help of <hi>Scripture,</hi>
+as they find out <hi>Scri<g ref="char:EOLhyphen"/>pture</hi> without the previous knowledge
+thereof.</p>
+            <p>And becauſe our Adverſaries will have Scripture to be the
+<hi>Sole Judge</hi> of all Religious Controverſies, let them reflect, that
+as, without all queſtion, there would be a <hi>great Confu<g ref="char:EOLhyphen"/>ſion</hi> in a
+Kingdom, wherein <hi>every one</hi> muſt decide <hi>all pleas</hi> relating
+unto him, by the <hi>writ<g ref="char:EOLhyphen"/>ten Law,</hi> underſtood according to his
+<hi>private reaſon,</hi> without <pb n="103" facs="tcp:29434:68"/>being <hi>bound</hi> to
+ſubmit to the Sentence of any <hi>living Judge,</hi> conſtituted by the
+Supreme Governour: So, doubtleſs, there cannot but be a horrid confuſi<g ref="char:EOLhyphen"/>on
+in a Church, where every one is permitted to decide <hi>all Debates</hi> in
+Religion by <hi>Scri<g ref="char:EOLhyphen"/>pture,</hi> (or the <hi>Written Law</hi> of God)
+underſtood according to his <hi>private Reaſon;</hi> without be<g ref="char:EOLhyphen"/>ing
+<hi>bound</hi> to ſubmit to the De<g ref="char:EOLhyphen"/>ciſion of any <hi>living Judge.</hi>
+            </p>
+            <p>Yea, the very Conſtitution, and practice of the Church of
+<hi>England,</hi> and of other <hi>Prote<g ref="char:EOLhyphen"/>ſtant Churches,</hi> does evidently
+prove, That <hi>Scripture is not the Judge of Controverſies,</hi> nor ſo
+<hi>clear,</hi> that any one, who reads it, or hears it read, may, with<g ref="char:EOLhyphen"/>out 
+<pb n="104" facs="tcp:29434:69"/>the help of any <hi>Expoſitor,</hi> or <hi>living
+Judge,</hi> manifeſtly un<g ref="char:EOLhyphen"/>derſtand whatſoever is <hi>neceſſary</hi>
+to be <hi>believ'd,</hi> or <hi>done</hi> by him, in order to Salvation: and
+that whatſoever any one, by read<g ref="char:EOLhyphen"/>ing of Scripture, or hearing it read, does
+not <hi>clearly under<g ref="char:EOLhyphen"/>ſtand,</hi> it is no matter <hi>whether he
+underſtands it, or not.</hi> For it is a common practice amongſt the
+Members of the Church of <hi>England,</hi> who are perſwaded that their
+Church is a True Church, in difficulties that a<g ref="char:EOLhyphen"/>riſe about the <hi>true
+meaning</hi> of Scriptures, to make their ad<g ref="char:EOLhyphen"/>dreſs, (and to <hi>think they
+ought</hi> to do ſo) to the Doctors of their Church, to receive from them the
+ſolution of ſuch Dif<g ref="char:EOLhyphen"/>ficulties. <pb n="105" facs="tcp:29434:69"/>Now if every one
+<hi>by himſelf</hi> clearly underſtands, in Scripture, <hi>whatſoever is
+ne<g ref="char:EOLhyphen"/>ceſſary</hi> unto him for his ſalvati<g ref="char:EOLhyphen"/>on; and whatſoever he does,
+not by <hi>himſelf,</hi> clearly under<g ref="char:EOLhyphen"/>ſtand in Scripture, 'tis <hi>no
+matter whether he ever underſtands it, or not,</hi> what need has he to make
+his addreſs to the Doctors of his Church, to be inſtructed by them
+concerning the mean<g ref="char:EOLhyphen"/>ing of Scriptures? For he needs not their inſtruction,
+for what <hi>he underſtands clearly</hi> by him<g ref="char:EOLhyphen"/>ſelf, as is manifeſt; nor
+for what he does <hi>not clearly under<g ref="char:EOLhyphen"/>ſtand</hi> by himſelf: For,
+accor<g ref="char:EOLhyphen"/>ding to their Doctrine he <hi>needs not</hi> underſtand <hi>ſuch
+Things</hi> at all. The ſame may be applied <pb n="106" facs="tcp:29434:70"/>to their
+writing ſo many Vo<g ref="char:EOLhyphen"/>lumes, to prove out of Scri<g ref="char:EOLhyphen"/>pture ſeveral <hi>chief
+Myſteries</hi> of our Faith. For what need is there of ſuch Writings, if
+Scri<g ref="char:EOLhyphen"/>pture be <hi>clear</hi> to <hi>every one,</hi> in all Things neceſſary
+to Sal<g ref="char:EOLhyphen"/>vation?</p>
+            <p>The Church alſo of <hi>England,</hi> and other Proteſtant
+Churches, do Conſtitute <hi>Miniſters,</hi> and <hi>Doctors,</hi> to Preach
+unto the People, and to teach them ſuch Things, as are <hi>neceſſary</hi>
+unto them, for to ſave their Souls; and vaſt Revenues are allow<g ref="char:EOLhyphen"/>ed them
+upon this account. Now, if Scripture does teach <hi>all Things</hi>
+neceſſary to Salvati<g ref="char:EOLhyphen"/>on, <hi>ſo clearly,</hi> that any one, <hi>without
+the aſſiſtance</hi> of a <pb n="107" facs="tcp:29434:70"/>Teacher, may manifeſtly
+un<g ref="char:EOLhyphen"/>derſtand them; and what he does not manifeſtly under<g ref="char:EOLhyphen"/>ſtand, without
+the aſſiſtance of a Teacher, 'tis <hi>no matter, whether he understands
+it or not,</hi> why ſhould they Con<g ref="char:EOLhyphen"/>ſtitute Preachers, and Teach<g ref="char:EOLhyphen"/>ers? or
+why ſhould they aſ<g ref="char:EOLhyphen"/>ſign ſuch vaſt Revenues, for an employment, which,
+whe<g ref="char:EOLhyphen"/>ther he who has it, <hi>does ever exerciſe, or not,</hi> 'tis no matter?
+The Practice therefore, and Conſtitution of the <hi>Engliſh</hi> Church,
+and of other Prote<g ref="char:EOLhyphen"/>ſtant Churches, does evident<g ref="char:EOLhyphen"/>ly evince, That Scripture is
+not <hi>ſo clear</hi> that any one, <hi>with<g ref="char:EOLhyphen"/>out the help of an
+Expoſitor,</hi> may with eaſe underſtand what<g ref="char:EOLhyphen"/>ever <pb n="108" facs="tcp:29434:71"/>is <hi>neceſſary</hi> in order to Sal<g ref="char:EOLhyphen"/>vation; and that what he
+does not underſtand ſo, he never needs to underſtand it at all. And if
+Scripture cannot decide clearly, <hi>by it ſelf,</hi> all Debates concerning
+matters <hi>neceſſary to Salvation,</hi> certainly <hi>the chief</hi> and
+<hi>ultimate Deciſion</hi> of ſuch Debates belongs to the Church: from whom
+we may expect a <hi>new Declaration,</hi> and <hi>Definiti<g ref="char:EOLhyphen"/>on</hi> (if
+occaſion requires) to make <hi>clear</hi> thoſe Things, which before were
+<hi>doubtful:</hi> Where<g ref="char:EOLhyphen"/>as we can never expect any <hi>new Scripture</hi> to
+that pur<g ref="char:EOLhyphen"/>poſe.</p>
+            <p>Beſides, it is certain, that God never intended to write
+<hi>ſuch a Scripture,</hi> as No Body <pb n="109" facs="tcp:29434:71"/>ſhould
+<hi>depend of another</hi> for the right intelligence thereof: otherwiſe he
+would have pen<g ref="char:EOLhyphen"/>ned it <hi>in all vulgar Languages,</hi> or in a Language, that
+<hi>all ſhould underſtand:</hi> which, certain<g ref="char:EOLhyphen"/>ly, he did not. As therefore
+they muſt depend upon the <hi>Skill,</hi> and <hi>Fidelity</hi> of the
+<hi>Tran<g ref="char:EOLhyphen"/>ſlator</hi> in order to have the <hi>True Scripture;</hi> why may
+they not depend alſo upon <hi>the honesty,</hi> and <hi>learning</hi> of an
+<hi>Expoſitor,</hi> in order to attain <hi>the right Senſe</hi>
+thereof?</p>
+            <p>Wherefore, unleſs Prote<g ref="char:EOLhyphen"/>ſtants will condemn <hi>the com<g ref="char:EOLhyphen"/>mon
+Practice,</hi> and even the very <hi>Constitution</hi> of their own Churches,
+and render inſigni<g ref="char:EOLhyphen"/>ficant <hi>the main,</hi> and <hi>almoſt only</hi> 
+               <pb n="110" facs="tcp:29434:72"/>employment of their <hi>Paſtours;</hi> they cannot
+believe Scripture to be <hi>ſo clear,</hi> even in <hi>neceſſary
+Points,</hi> as they ſeem to make it: eſpecially ſince they are not
+ig<g ref="char:EOLhyphen"/>norant, that <hi>Scripture it ſelf</hi> does plainly tell them, 2
+<hi>Pet.</hi> 3.16. that many <hi>hard</hi> and <hi>ob<g ref="char:EOLhyphen"/>ſcure Things</hi> are
+contained in Scriptures; wherein the very <hi>Salvation of men</hi> is deeply
+con<g ref="char:EOLhyphen"/>cerned. And ſince Proteſtants make their addreſs, as daily experience
+does teach us, <hi>to their Church,</hi> and <hi>to the Do<g ref="char:EOLhyphen"/>ctors</hi> thereof,
+in Points contro<g ref="char:EOLhyphen"/>verted, 'tis an evident ſign, that they are perſwaded,
+that <hi>the voice</hi> of the Church is <hi>clearer</hi> in ſuch points,
+than <hi>Scripture.</hi> For no Body can in prudence <pb n="111" facs="tcp:29434:72"/>ſeek out the <hi>right,</hi> and <hi>clear</hi> intelligence, of a
+Thing that is obſcure, by what is <hi>as much, or more obſcure.</hi>
+            </p>
+            <p>And ſince moreover, <hi>Natu<g ref="char:EOLhyphen"/>ral reaſon</hi> does teach us,
+that we ought to begin with what <hi>is clear,</hi> to arrive to the right
+In<g ref="char:EOLhyphen"/>telligence of what <hi>is obſcure,</hi> I conclude, that the <hi>natural
+or<g ref="char:EOLhyphen"/>der</hi> of Things does require, that we ſhould ſeek out the <hi>True
+Scripture,</hi> and <hi>True Senſe</hi> there<g ref="char:EOLhyphen"/>of, by <hi>the Church;</hi>
+rather than the <hi>True Church</hi> by <hi>the Scri<g ref="char:EOLhyphen"/>pture.</hi>
+            </p>
+            <p>From what has been ſet down in the progreſs of this
+Diſcourſe, 'tis manifeſt, that our Adverſa<g ref="char:EOLhyphen"/>ries cannot, with any ſhew
+of probability, object againſt us a <pb n="112" facs="tcp:29434:73"/>
+               <hi>vicious
+Circle,</hi> wherewith they pretend to puzzle many Ca<g ref="char:EOLhyphen"/>tholick Writers; as if
+they did prove the <hi>Scripture</hi> by the <hi>Church,</hi> and the
+<hi>Church</hi> by the <hi>Scripture.</hi> For though we ſhew <hi>the Truth
+of Scri<g ref="char:EOLhyphen"/>pture,</hi> and all other <hi>Articles of the Roman</hi> Faith by the
+<hi>Truth</hi> of the <hi>Roman Church,</hi> yet we ſhew the <hi>Truth of the
+Roman</hi> Church, not by the <hi>Scripture,</hi> but by its <hi>miracu<g ref="char:EOLhyphen"/>lous
+propagation;</hi> and its mira<g ref="char:EOLhyphen"/>culous propagation, by the <hi>common
+conſent</hi> of our Adver<g ref="char:EOLhyphen"/>ſaries, by <hi>conſtant Tradition,</hi> and by
+<hi>Natural Reaſon.</hi> For our Adverſaries grant, and conſtant
+Tradition ſhews, That the <hi>Roman</hi> Catholick Religion 
+<pb n="113" facs="tcp:29434:73"/>is a <hi>hard Religion;</hi> and yet that it has been
+propagated <hi>in the manner aboveſaid:</hi> and then <hi>Natural
+Reaſon</hi> does teach us, That <hi>ſuch</hi> a propagation of
+<hi>ſuch</hi> a Religion could not be ef<g ref="char:EOLhyphen"/>fected without the
+<hi>particular,</hi> and <hi>miraculous</hi> aſſiſtance of God.</p>
+            <p>Some perhaps will deſire to know, what <hi>connexion</hi> we
+admit between the <hi>Motives,</hi> and <hi>Inducements,</hi> which we have to
+perſwade our ſelves, that the <hi>Roman</hi> Catholick Re<g ref="char:EOLhyphen"/>ligion is
+<hi>True,</hi> and between the <hi>Truth</hi> thereof? or what
+<hi>Certainty</hi> we have of the <hi>Ex<g ref="char:EOLhyphen"/>iſtency</hi> of ſuch
+<hi>Motives</hi> and <hi>In<g ref="char:EOLhyphen"/>ducements?</hi> and whether this Connexion and
+Certainty, be <hi>Moral</hi> or <hi>Metaphyſical?</hi> To 
+<pb n="114" facs="tcp:29434:74"/>avoid Scholaſtick Nicities, I anſwer (ſuppoſing,
+that ſuch as propoſe this Queſtion, do profeſs themſelves
+Chriſtians) that the <hi>Connexion</hi> between the <hi>Inducements</hi> we
+have to be <hi>Catholicks,</hi> and the <hi>Truth</hi> of <hi>Catholick</hi>
+Religion; and the <hi>Certainty</hi> we have con<g ref="char:EOLhyphen"/>cerning the
+<hi>Exiſtency</hi> of ſuch <hi>Inducements;</hi> is <hi>the ſame,</hi> as
+the <hi>connexion</hi> between the <hi>In<g ref="char:EOLhyphen"/>ducements</hi> we have to be
+<hi>Chri<g ref="char:EOLhyphen"/>ſtians,</hi> and the <hi>Truth</hi> of <hi>Chri<g ref="char:EOLhyphen"/>ſtian</hi>
+Religion; and the <hi>cer<g ref="char:EOLhyphen"/>tainty</hi> concerning the <hi>exiſtency</hi> of
+ſuch <hi>Inducements.</hi> So that we have the <hi>ſame kind of
+Cer<g ref="char:EOLhyphen"/>tainty</hi> concerning the Truth of the <hi>Roman</hi> Catholick Church,
+and the <hi>particular</hi> Tenets there<g ref="char:EOLhyphen"/>of, <pb n="115" facs="tcp:29434:74"/>as concerning
+the <hi>Truth</hi> of <hi>Chriſtian</hi> Religion, and the <hi>general
+Tenets</hi> of Chriſtianity: and the ſame queſtion may be propoſed to
+any profeſſour of <hi>Chriſtianity;</hi> yea, to the pro<g ref="char:EOLhyphen"/>feſſours of
+any <hi>revealed</hi> Re<g ref="char:EOLhyphen"/>ligion. So that the difficulty is not <hi>proper</hi>
+unto us, but <hi>com<g ref="char:EOLhyphen"/>mon</hi> to all ſuch, as allow any <hi>revealed</hi>
+Religion; and con<g ref="char:EOLhyphen"/>ſequently they are all <hi>equally</hi> bound to ſolve
+it.</p>
+            <p>I anſwer again, that the fore-mentioned <hi>Connexion,</hi> and
+<hi>Certainty,</hi> is at leaſt <hi>Moral,</hi> (I do not ſay, that it is
+not <hi>Metaphyſical</hi>) and ſuch, as to deny, or queſtion it, would be
+a <hi>madneſs:</hi> in the ſame <pb n="116" facs="tcp:29434:75"/>manner, as it is
+<hi>morally cer<g ref="char:EOLhyphen"/>tain,</hi> that there have been in the world ſuch men, as
+<hi>Ju<g ref="char:EOLhyphen"/>lius Caeſar, William the Con<g ref="char:EOLhyphen"/>querour,</hi> and <hi>Henry the
+Eighth,</hi> and that they did ſuch, and ſuch Actions, as are conſtant<g ref="char:EOLhyphen"/>ly
+reported by the writers of their Lives, and commonly believed without any
+heſita<g ref="char:EOLhyphen"/>tion, and whoever ſhould call in queſtion any of Theſe Things,
+would be look'd up<g ref="char:EOLhyphen"/>on as a Mad man. Wherefore as it would be a madneſs to
+ſay, perhaps, there has never been in the world ſuch a man as <hi>William
+the Conquerour,</hi> per<g ref="char:EOLhyphen"/>haps he never was in <hi>England,</hi> perhaps he did
+not ſubdue <hi>Eng<g ref="char:EOLhyphen"/>land</hi> by his Arms: So in like <pb n="117" facs="tcp:29434:75"/>manner, it would be a folly to affirm, perhaps, there have never been
+in the world ſuch men, as <hi>Chriſt and his Apoſtles,</hi> perhaps they
+never <hi>preached Chriſtianity,</hi> perhaps they never <hi>Converted
+Nations</hi> from Pagan<g ref="char:EOLhyphen"/>iſm to Chriſtianiſm, perhaps they never did any
+of Thoſe Miracu<g ref="char:EOLhyphen"/>ous Actions, which are common<g ref="char:EOLhyphen"/>ly recorded of them, and
+con<g ref="char:EOLhyphen"/>ſtantly believed by Chriſtians.</p>
+            <p>The ſame may be applied to ſeveral Preachers of
+<hi>Catholick</hi> Religion. So, doubtleſs, it would be a madneſs to
+queſti<g ref="char:EOLhyphen"/>on, whether there has ever been ſuch a man as Saint <hi>Fran<g ref="char:EOLhyphen"/>cis
+Xaverius,</hi> or whether he ever preached <hi>Catholick</hi> Reli<g ref="char:EOLhyphen"/>gion, 
+<pb n="118" facs="tcp:29434:76"/>or ever <hi>converted any people</hi> to it, or whether he
+ever did any of <hi>Thoſe ſtupen<g ref="char:EOLhyphen"/>dious</hi> actions, which are com<g ref="char:EOLhyphen"/>monly
+related of him, and cre<g ref="char:EOLhyphen"/>dited by Catholicks. For we have at leaſt <hi>as much
+evidence,</hi> or the <hi>ſame kind</hi> of evidence, for theſe latter
+actions of <hi>Chriſt,</hi> his Apoſtles, and other Apo<g ref="char:EOLhyphen"/>ſtolical men, as
+for thoſe for<g ref="char:EOLhyphen"/>mer actions of <hi>William the Con<g ref="char:EOLhyphen"/>querour, Henry the
+Eighth,</hi> or <hi>Julius Caeſar.</hi> Neither were the Miracles of
+<hi>Chriſt,</hi> his Apoſtles, and other Apoſto<g ref="char:EOLhyphen"/>lical men, leſs
+palpable to ſuch, as were ſtanders by, and from whom they were handed down
+to us: nor ſo hard to God, the principal <pb n="119" facs="tcp:29434:76"/>Agent of them,
+nor more rare in themſelves, than the famous Exploits of <hi>William the
+Con<g ref="char:EOLhyphen"/>querour,</hi> and others; and con<g ref="char:EOLhyphen"/>ſequently they are not leſs
+cre<g ref="char:EOLhyphen"/>dible.</p>
+            <p>Now whoever comes to deny, or queſtion Things <hi>morally
+cer<g ref="char:EOLhyphen"/>tain,</hi> (which to deny, or que<g ref="char:EOLhyphen"/>ſtion, is a madneſs) he will come
+alſo to deny, or queſti<g ref="char:EOLhyphen"/>on, Things <hi>Metaphyſically cer<g ref="char:EOLhyphen"/>tain.</hi> For,
+what is there, that a <hi>Mad man</hi> will not <hi>deny,</hi> or
+<hi>queſtion?</hi> So that, if one will not be Mad, nor Obſtiante,
+<hi>Moral Certainty</hi> will be enough to convince him. But if one is
+reſolved to be Mad, or Ob<g ref="char:EOLhyphen"/>ſtinate; neither <hi>Phyſical,</hi> nor 
+<pb n="120" facs="tcp:29434:77"/>
+               <hi>Metaphyſical</hi> certainty will ſuf<g ref="char:EOLhyphen"/>fice. And
+ſo we ſee, that as ſome have denied, or que<g ref="char:EOLhyphen"/>ſtioned Things <hi>Morally
+Cer<g ref="char:EOLhyphen"/>tain,</hi> ſo others have denied, or queſtioned Things
+<hi>Phyſical<g ref="char:EOLhyphen"/>ly</hi> or <hi>Metaphyſically certain:</hi> For, there is no
+Madneſs with<g ref="char:EOLhyphen"/>out a Patron. <hi>Nulla fotuitas abſque patrono.</hi>
+            </p>
+            <p>Beſides, our Adverſa<g ref="char:EOLhyphen"/>ries (ſure) will never confeſs, That
+it is <hi>Mo<g ref="char:EOLhyphen"/>rally certain,</hi> that what<g ref="char:EOLhyphen"/>ever the <hi>Roman</hi> Catho<g ref="char:EOLhyphen"/>lick
+Religion delivers as an <hi>Article of Faith, is <pb n="121" facs="tcp:29434:77"/>True;</hi> or that the My<g ref="char:EOLhyphen"/>ſteries of <hi>Tranſubſtantiation,
+Purgatory,</hi> and the like, are as <hi>certainly true,</hi> as that there has
+been ſuch a man as <hi>Henry the Eighth.</hi> Where<g ref="char:EOLhyphen"/>fore, it will be enough,
+if we can bring Sectaries to grant, that all <hi>the Myſte<g ref="char:EOLhyphen"/>ries</hi> of our
+Faith are <hi>mo<g ref="char:EOLhyphen"/>rally certain.</hi> Yea, if in this Syllogiſm (ſo frequent
+in Diſputes concerning the <hi>Reſolution of Faith</hi>) viz.</p>
+            <p>Whatſoever God has <pb n="122" facs="tcp:29434:78"/>revealed, is True, and
+can<g ref="char:EOLhyphen"/>not in <hi>any caſe poſſible</hi> be otherwiſe.</p>
+            <p>But God has revealed the Myſteries of the <hi>Incar<g ref="char:EOLhyphen"/>nation, the
+Tranſubſtantia<g ref="char:EOLhyphen"/>tion, the Real Preſence,</hi> and the other
+<hi>Articles</hi> of our Faith.</p>
+            <p>
+               <hi>Ergo,</hi> the Myſteries of the <hi>Incarnation,</hi> and
+the other <hi>Articles</hi> of our <hi>Faith,</hi> are True, and cannot in
+<hi>any caſe poſſible</hi> be other<g ref="char:EOLhyphen"/>wiſe. <pb n="123" facs="tcp:29434:78"/>If (I
+ſay) the <hi>Minor</hi> of the fore-mentioned Syl<g ref="char:EOLhyphen"/>logiſm be granted, or
+ſhewn to be, at leaſt <hi>morally cer<g ref="char:EOLhyphen"/>tain,</hi> it will be a
+<hi>madneſs</hi> to deny, or queſtion, not only the <hi>Truth</hi> of the
+<hi>Ar<g ref="char:EOLhyphen"/>ticles</hi> of our <hi>Faith;</hi> but al<g ref="char:EOLhyphen"/>ſo their <hi>incapacity to
+be falſe,</hi> in any <hi>caſe</hi> imaginable. And what more, than this,
+can <hi>rationally</hi> be required, to evidence the <hi>Truth</hi> of our
+Faith, and Religion?</p>
+            <p>And, to cloſe up the <pb n="124" facs="tcp:29434:79"/>whole Diſcourſe; I
+am confident, that nothing <hi>material</hi> can be objected againſt This
+<hi>Method,</hi> which has not been anſwered: though, perhaps, more
+<hi>compendiouſly,</hi> than ſome would deſire. Whatever elſe may
+occur, contrary unto it, any moderate wit will be able to ſolve.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:29434:79"/>
+         </div>
+      </body>
+      <back>
+         <div type="imprimatur">
+            <pb facs="tcp:29434:80"/>
+            <p>Imprimatur,</p>
+            <closer>
+               <signed>G. Jane <hi>R. P. D.</hi> HEN. <hi>Epiſc.</hi>
+Lond. <hi>à Sac. Dom.</hi>
+               </signed> 
+               <dateline>
+                  <date>March 20.
+1676./7.</date>
+               </dateline>
+            </closer>
+         </div>
+      </back>
+   </text>
+</TEI>
